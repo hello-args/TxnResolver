@@ -1,0 +1,1001 @@
+Transaction ID,amount,Comments
+44516715,20,The payment was not found in the corresponding financial report. Additional investigation is required.
+34286015,116.6999969,"The payment gateway didn’t return the correct confirmation, so the order remains unresolved."
+90851690,50,"We found a partial payment, but the full transaction details are still missing."
+67286592,900,The discrepancy was due to an incorrect payment method. It’s now corrected and reconciled.
+15780875,1120,"The customer provided the correct payment reference, and the discrepancy was cleared."
+88712053,101,"The missing order ID has been found, and the data has been updated accordingly."
+35877233,430,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+62671578,1020,"The missing order ID has been found, and the data has been updated accordingly."
+50407375,150,"The system returned an error when processing the payment, so we need to reprocess it."
+92497763,50.40000153,"The wrong account was initially credited, but the transaction has been rectified and processed correctly."
+85311511,65,"We found a partial payment, but the full transaction details are still missing."
+84045829,5,"After reviewing the order, we found the correct payment details. The case is now resolved."
+27182625,15,The payment was not found in the corresponding financial report. Additional investigation is required.
+41460616,372,"The payment amount is incorrect, and further investigation is needed to identify the cause of the discrepancy."
+69226073,100,The reconciliation has been completed. The records now align across all platforms.
+73484007,27,"The payment gateway didn’t return the correct confirmation, so the order remains unresolved."
+67551234,3,"Its not been 3 months, wait and then raise for the issue"
+40138173,430,"After reviewing the order, we found the correct payment details. The case is now resolved."
+70850839,70,"The payment was processed successfully, and the reconciliation issue is now resolved."
+28352958,48,The payment reference provided doesn’t match the system’s record. We need additional verification.
+29050472,1920,"The wrong account was initially credited, but the transaction has been rectified and processed correctly."
+75896254,24,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+94744868,211,"The error was caused by incorrect data formatting, which has now been corrected."
+39566472,2,The payment reference provided doesn’t match the system’s record. We need additional verification.
+43994020,20,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+74823105,370,The reconciliation has been completed. The records now align across all platforms.
+14854638,250,The wrong transaction ID was used in the initial record. It’s now corrected.
+78700075,64,"The status has been updated, and all records now reflect accurate information and you can download the report again"
+43520252,499,We need the customer’s payment reference to proceed with the investigation.
+28457757,4.199999809,"The error was caused by incorrect data formatting, which has now been corrected."
+13739341,10500,The wrong transaction ID was used in the initial record. It’s now corrected.
+60548338,7000,"We found a partial payment, but the full transaction details are still missing."
+28291307,30,"We found a partial payment, but the full transaction details are still missing."
+43629865,90,"The system returned an error when processing the payment, so we need to reprocess it."
+41686287,800,"The missing data was found, and all accounts are now balanced."
+78992025,102,"Please provide the correct transaction ID, and we will continue with the reconciliation process."
+74514252,1000,"The payment was processed successfully, and the reconciliation issue is now resolved."
+62447816,150,The amount recorded does not match the expected payment. Please double-check the payment details.
+94103714,2800,We suggest checking with the payment provider to confirm if the payment was completed successfully.
+81698225,300,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+11499632,50,"The missing data was found, and all accounts are now balanced."
+40936510,130,The issue has been reviewed and closed successfully after corrections were applied.
+98335702,1800,"The order ID and payment do not align with our records, and we are awaiting further confirmation."
+11502949,300,"The missing order ID has been found, and the data has been updated accordingly."
+64766578,1.399999976,"The payment gateway didn’t return the correct confirmation, so the order remains unresolved."
+97773938,32,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+91507618,20,"The missing data was found, and all accounts are now balanced."
+60827341,202,"The payment was processed successfully, and the reconciliation issue is now resolved."
+82340925,29,"The payment was processed successfully, and the reconciliation issue is now resolved."
+40583922,3111,"The order ID and payment do not align with our records, and we are awaiting further confirmation."
+55882083,40,"The payment status is still showing as pending, and we need further clarification before resolving."
+76891609,168.8000031,Kindly check the payment gateway logs to identify any issues with the transaction.
+67263824,2,"The reconciliation process was interrupted, and we need to restart it to verify the data."
+43212586,144,"The reconciliation process was interrupted, and we need to restart it to verify the data."
+62098069,300,"The reconciliation process was interrupted, and we need to restart it to verify the data."
+13618725,6,Please verify the order details with the accounting team so we can finalize the reconciliation.
+81768473,3,The issue has been reviewed and closed successfully after corrections were applied.
+96988196,15,"The status has been updated, and all records now reflect accurate information and you can download the report again"
+15364726,40,"There’s a discrepancy in the order details, and we need more time to resolve it."
+65259380,351,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+84972550,17,"The payment gateway didn’t return the correct confirmation, so the order remains unresolved."
+71194233,127,"The system returned an error when processing the payment, so we need to reprocess it."
+77234526,501,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+33963035,21,The resolved payment was successfully reconciled and updated in the system.
+20349703,10400,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+66937809,3126,We suggest checking with the payment provider to confirm if the payment was completed successfully.
+58637973,407,"The order was refunded due to a customer request, and the issue is now closed."
+73307871,127,"The comments provided don’t match the transaction details, so we need further clarification."
+20197198,5500,The issue has been reviewed and closed successfully after corrections were applied.
+74727226,10,"The payment amount is incorrect, and further investigation is needed to identify the cause of the discrepancy."
+97566778,1.399999976,The wrong transaction ID was used in the initial record. It’s now corrected.
+32616337,200,"The reconciliation process was interrupted, and we need to restart it to verify the data."
+36758479,3,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+90014073,84.41000366,"The missing data was found, and all accounts are now balanced."
+73239761,40000,The wrong transaction ID was used in the initial record. It’s now corrected.
+78839426,7120,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+53186640,68,We suggest checking with the payment provider to confirm if the payment was completed successfully.
+37331518,50,"Please provide the correct transaction ID, and we will continue with the reconciliation process."
+67468527,1275,"The system returned an error when processing the payment, so we need to reprocess it."
+42205539,350,The issue has been successfully resolved. The transaction has been matched
+44316620,700,The payment reference provided doesn’t match the system’s record. We need additional verification.
+40908049,1000,We suggest checking with the payment provider to confirm if the payment was completed successfully.
+43371350,7000,"The order ID mismatch has been resolved, and the correct amount has been applied."
+32179801,25,"Its not been 3 months, wait and then raise for the issue"
+17771704,1700,"We found a partial payment, but the full transaction details are still missing."
+36051516,675,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+74679886,20.29999924,"The order ID mismatch has been resolved, and the correct amount has been applied."
+41919651,270,Kindly check the payment gateway logs to identify any issues with the transaction.
+70316575,15,"The payment amount is incorrect, and further investigation is needed to identify the cause of the discrepancy."
+83413298,52,"The payment was processed twice, and the duplicate entry has been removed."
+49881751,10000,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+44997447,180,"The payment was rejected, but we have no details on why. More information is required to resolve."
+89968841,6083,"The system returned an error when processing the payment, so we need to reprocess it."
+85884133,150,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+60104471,100,"The system returned an error when processing the payment, so we need to reprocess it."
+13227660,4000,"The comments provided don’t match the transaction details, so we need further clarification."
+88813193,7384,"The order was refunded due to a customer request, and the issue is now closed."
+11570297,350,"Please provide the correct transaction ID, and we will continue with the reconciliation process."
+92873637,15,The reconciliation has been completed. The records now align across all platforms.
+43695040,22,"The reconciliation process was interrupted, and we need to restart it to verify the data."
+63871003,20,"The payment was processed successfully, and the reconciliation issue is now resolved."
+76366358,5,"The customer provided the correct payment reference, and the discrepancy was cleared."
+83911583,100,"The payment was processed successfully, and the reconciliation issue is now resolved."
+81917918,10,"The order ID mismatch has been resolved, and the correct amount has been applied."
+64990183,10500,The payment reference provided doesn’t match the system’s record. We need additional verification.
+76783419,5060,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+96468014,11.39000034,We need the customer’s payment reference to proceed with the investigation.
+74785864,575,"The payment was processed successfully, and the reconciliation issue is now resolved."
+70826402,520,"The comments provided don’t match the transaction details, so we need further clarification."
+45031467,20,We need the customer’s payment reference to proceed with the investigation.
+65781697,2,Please verify the order details with the accounting team so we can finalize the reconciliation.
+99617229,12000,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+25752551,35,We need the customer’s payment reference to proceed with the investigation.
+95197689,11.19999981,"The order ID mismatch has been resolved, and the correct amount has been applied."
+89151560,1225,"The payment discrepancy was related to a system error, which has now been fixed."
+79471280,667.9000244,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+36669936,256.8099976,"The transaction was mistakenly marked as pending, but it is now confirmed and paid"
+65981988,40,"The error was caused by incorrect data formatting, which has now been corrected."
+16780815,350,The discrepancy was due to an incorrect payment method. It’s now corrected and reconciled.
+34949731,340,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+84490819,9000,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+32805372,700,"The system returned an error when processing the payment, so we need to reprocess it."
+80266019,1000,The wrong transaction ID was used in the initial record. It’s now corrected.
+48732520,1750,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+63126963,810,The discrepancy was due to an incorrect payment method. It’s now corrected and reconciled.
+49176653,84,"The system returned an error when processing the payment, so we need to reprocess it."
+17396018,362,"The system returned an error when processing the payment, so we need to reprocess it."
+81306467,200,"The missing data was found, and all accounts are now balanced."
+43543651,76,Kindly check the payment gateway logs to identify any issues with the transaction.
+69007428,2,"The payment was processed successfully, and the reconciliation issue is now resolved."
+36702557,600,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+23310712,15000,"There’s a discrepancy in the order details, and we need more time to resolve it."
+71372534,60,"The payment was rejected, but we have no details on why. More information is required to resolve."
+69072313,223,"Its not been 3 months, wait and then raise for the issue"
+13631362,340,The amount recorded does not match the expected payment. Please double-check the payment details.
+18297514,7.699999809,"The order was refunded due to a customer request, and the issue is now closed."
+27178082,35,Please verify the order details with the accounting team so we can finalize the reconciliation.
+15774621,1059,The wrong transaction ID was used in the initial record. It’s now corrected.
+71878823,3.630000114,"The payment amount is incorrect, and further investigation is needed to identify the cause of the discrepancy."
+56893464,230,"The data from the external source is missing key information, and we need to validate before proceeding."
+85688856,102,"After reviewing the order, we found the correct payment details. The case is now resolved."
+57673464,173,"After reviewing the order, we found the correct payment details. The case is now resolved."
+99927636,100,"We found a partial payment, but the full transaction details are still missing."
+68510151,35,The payment reference provided doesn’t match the system’s record. We need additional verification.
+63554274,58,"The payment was processed twice, and the duplicate entry has been removed."
+79338124,507,"We found a partial payment, but the full transaction details are still missing."
+19198324,2040,"The payment was rejected, but we have no details on why. More information is required to resolve."
+80445127,5400,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+51193080,28000,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+45013796,108,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+46885315,2016,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+47221480,150,The payment reference provided doesn’t match the system’s record. We need additional verification.
+50157984,132.5,The wrong transaction ID was used in the initial record. It’s now corrected.
+30529465,300,We suggest checking with the payment provider to confirm if the payment was completed successfully.
+30725357,555,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+30385965,100.3000031,"The payment status is still showing as pending, and we need further clarification before resolving."
+54749274,3358.100098,"The payment was processed twice, and the duplicate entry has been removed."
+35025502,495.5,The issue has been reviewed and closed successfully after corrections were applied.
+27937114,57,The issue has been reviewed and closed successfully after corrections were applied.
+64406097,3,"The payment amount is incorrect, and further investigation is needed to identify the cause of the discrepancy."
+43351344,3050,"The transaction was mistakenly marked as pending, but it is now confirmed and paid"
+29630654,406,We couldn’t locate the order ID in the system; please verify the transaction details.
+25544476,16,The issue has been successfully resolved. The transaction has been matched
+23126828,8500,The payment was not found in the corresponding financial report. Additional investigation is required.
+42071204,100,Kindly check the payment gateway logs to identify any issues with the transaction.
+22592504,6.300000191,"The status has been updated, and all records now reflect accurate information and you can download the report again"
+80888552,150,"The payment status is still showing as pending, and we need further clarification before resolving."
+45864178,10,"The reconciliation process was interrupted, and we need to restart it to verify the data."
+95202800,10,"The payment was processed twice, and the duplicate entry has been removed."
+71994644,50,"Once the missing order information is provided, we will proceed with finalizing the reconciliation."
+22080766,313,We couldn’t locate the order ID in the system; please verify the transaction details.
+51144519,174,"The data from the external source is missing key information, and we need to validate before proceeding."
+95801678,10000,"The payment was rejected, but we have no details on why. More information is required to resolve."
+85992415,84.5,"The payment gateway didn’t return the correct confirmation, so the order remains unresolved."
+72160656,28000,"The data from the external source is missing key information, and we need to validate before proceeding."
+80573428,70000,"The wrong account was initially credited, but the transaction has been rectified and processed correctly."
+39706069,2170,"The wrong account was initially credited, but the transaction has been rectified and processed correctly."
+26832395,1624,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+47444117,8,"The status has been updated, and all records now reflect accurate information and you can download the report again"
+13986642,14,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+72452114,5835.700195,"We found a partial payment, but the full transaction details are still missing."
+84050325,20,The issue has been reviewed and closed successfully after corrections were applied.
+32387155,100,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+31439028,508,We suggest checking with the payment provider to confirm if the payment was completed successfully.
+88420641,1700,"The system is currently down, preventing us from completing the reconciliation."
+11190001,500,"The missing order ID has been found, and the data has been updated accordingly."
+26977529,23,"The missing data was found, and all accounts are now balanced."
+80144100,100,"Its not been 3 months, wait and then raise for the issue"
+99646652,500,"The system is currently down, preventing us from completing the reconciliation."
+63392311,130,"The payment was rejected, but we have no details on why. More information is required to resolve."
+58366437,10000,"After reviewing the order, we found the correct payment details. The case is now resolved."
+13836968,100,"After reviewing the order, we found the correct payment details. The case is now resolved."
+70469434,13,We suggest checking with the payment provider to confirm if the payment was completed successfully.
+89330444,105,Kindly check the payment gateway logs to identify any issues with the transaction.
+60809058,368,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+78377586,25,The issue has been successfully resolved. The transaction has been matched
+14565692,70,The reconciliation has been completed. The records now align across all platforms.
+95078629,4500,"Please provide the correct transaction ID, and we will continue with the reconciliation process."
+46223354,200,"The missing order ID has been found, and the data has been updated accordingly."
+85801698,350,Kindly check the payment gateway logs to identify any issues with the transaction.
+25063187,12,"The missing order ID has been found, and the data has been updated accordingly."
+47680195,50,"The payment was processed successfully, and the reconciliation issue is now resolved."
+72341820,8872,"The payment gateway didn’t return the correct confirmation, so the order remains unresolved."
+84258600,2558,"The customer provided the correct payment reference, and the discrepancy was cleared."
+36418100,4.099999905,"Please provide the correct transaction ID, and we will continue with the reconciliation process."
+54002596,250.5500031,"The order ID mismatch has been resolved, and the correct amount has been applied."
+67934894,4,The wrong transaction ID was used in the initial record. It’s now corrected.
+91420618,10000,"The error was caused by incorrect data formatting, which has now been corrected."
+16031495,500,"The payment was processed successfully, and the reconciliation issue is now resolved."
+93376156,1700,"There’s a discrepancy in the order details, and we need more time to resolve it."
+60583117,100,"The error was caused by incorrect data formatting, which has now been corrected."
+84315414,1.399999976,"The error was caused by incorrect data formatting, which has now been corrected."
+58192731,255,"The order ID mismatch has been resolved, and the correct amount has been applied."
+99315383,508,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+85011595,400,"Once the missing order information is provided, we will proceed with finalizing the reconciliation."
+24582115,178,"Its not been 3 months, wait and then raise for the issue"
+78725216,35.27000046,"The system returned an error when processing the payment, so we need to reprocess it."
+40131036,6500,"We found a partial payment, but the full transaction details are still missing."
+56221933,35000,"The status has been updated, and all records now reflect accurate information and you can download the report again"
+81109466,3.539999962,"The payment discrepancy was related to a system error, which has now been fixed."
+19678628,399,"The payment was processed twice, and the duplicate entry has been removed."
+77464118,13828,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+20191171,1590,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+50584238,716,"The order was refunded due to a customer request, and the issue is now closed."
+94802087,10,"The error was caused by incorrect data formatting, which has now been corrected."
+34766502,50,"The order ID mismatch has been resolved, and the correct amount has been applied."
+89393427,227,"The missing order ID has been found, and the data has been updated accordingly."
+51593934,41,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+42954847,620,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+88594770,2604,"The customer provided the correct payment reference, and the discrepancy was cleared."
+87031862,80,"The order ID and payment do not align with our records, and we are awaiting further confirmation."
+64507583,10000,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+73685094,740,The resolved payment was successfully reconciled and updated in the system.
+67997666,24,"We found a partial payment, but the full transaction details are still missing."
+16057618,30,"We found a partial payment, but the full transaction details are still missing."
+98990214,15,"The transaction was mistakenly marked as pending, but it is now confirmed and paid"
+70363631,1869,"The order ID mismatch has been resolved, and the correct amount has been applied."
+44579924,1006.799988,"The order ID mismatch has been resolved, and the correct amount has been applied."
+97458201,530,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+77064783,200,"The order was refunded due to a customer request, and the issue is now closed."
+35856017,5,"The missing data was found, and all accounts are now balanced."
+71370679,1200,"Its not been 3 months, wait and then raise for the issue"
+21261627,1020,"The customer provided the correct payment reference, and the discrepancy was cleared."
+99096854,1200,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+17139032,130,"Please provide the correct transaction ID, and we will continue with the reconciliation process."
+20435161,58,"The status has been updated, and all records now reflect accurate information and you can download the report again"
+62394233,3,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+39940329,116,"The system returned an error when processing the payment, so we need to reprocess it."
+17036258,896,"The error was caused by incorrect data formatting, which has now been corrected."
+83304881,1100,"Please provide the correct transaction ID, and we will continue with the reconciliation process."
+74430661,19,"Please provide the correct transaction ID, and we will continue with the reconciliation process."
+93702435,400,"Its not been 3 months, wait and then raise for the issue"
+57216401,2300,The issue has been reviewed and closed successfully after corrections were applied.
+26086076,70000,"The missing order ID has been found, and the data has been updated accordingly."
+63628034,2,"Once the missing order information is provided, we will proceed with finalizing the reconciliation."
+43483361,18,"After reviewing the order, we found the correct payment details. The case is now resolved."
+86227585,510,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+49754492,1.399999976,"Once the missing order information is provided, we will proceed with finalizing the reconciliation."
+23188906,814.7999878,The reconciliation has been completed. The records now align across all platforms.
+48338526,20,The discrepancy was due to an incorrect payment method. It’s now corrected and reconciled.
+15666265,100,"The payment gateway didn’t return the correct confirmation, so the order remains unresolved."
+39314755,200,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+22026753,111,"Its not been 3 months, wait and then raise for the issue"
+79582591,430,"The payment discrepancy was related to a system error, which has now been fixed."
+15670749,210,The resolved payment was successfully reconciled and updated in the system.
+89737148,15000,"The payment was processed successfully, and the reconciliation issue is now resolved."
+87574976,4004,"The payment discrepancy was related to a system error, which has now been fixed."
+48877049,50,Please verify the order details with the accounting team so we can finalize the reconciliation.
+69049577,2200,The payment reference provided doesn’t match the system’s record. We need additional verification.
+48953352,43.00999832,"The system is currently down, preventing us from completing the reconciliation."
+85338881,53,"The wrong account was initially credited, but the transaction has been rectified and processed correctly."
+27282241,100,"The system is currently down, preventing us from completing the reconciliation."
+15438522,60,"The payment amount is incorrect, and further investigation is needed to identify the cause of the discrepancy."
+63870287,600,"Its not been 3 months, wait and then raise for the issue"
+44454457,90,The payment was not found in the corresponding financial report. Additional investigation is required.
+93290568,5774,"The system returned an error when processing the payment, so we need to reprocess it."
+14472621,5,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+90325680,670,The discrepancy was due to an incorrect payment method. It’s now corrected and reconciled.
+41890042,365,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+82898396,5747,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+48041187,161,"The missing data was found, and all accounts are now balanced."
+49263173,87,"The customer provided the correct payment reference, and the discrepancy was cleared."
+56219599,9177,"The payment was processed successfully, and the reconciliation issue is now resolved."
+58191741,50,"Please provide the correct transaction ID, and we will continue with the reconciliation process."
+87045085,100,"The wrong account was initially credited, but the transaction has been rectified and processed correctly."
+94057189,16,Please verify the order details with the accounting team so we can finalize the reconciliation.
+48084830,4.199999809,"The system is currently down, preventing us from completing the reconciliation."
+66594787,26,"The payment discrepancy was related to a system error, which has now been fixed."
+83034507,3828,"The missing data was found, and all accounts are now balanced."
+54199987,40,"The payment discrepancy was related to a system error, which has now been fixed."
+90771373,100000,"The payment gateway didn’t return the correct confirmation, so the order remains unresolved."
+64492961,500,"The payment was rejected, but we have no details on why. More information is required to resolve."
+60644671,5000,"The system is currently down, preventing us from completing the reconciliation."
+78319776,400,The issue has been successfully resolved. The transaction has been matched
+80082989,2,The amount recorded does not match the expected payment. Please double-check the payment details.
+22407037,130,"The order was refunded due to a customer request, and the issue is now closed."
+57570218,70,"The payment discrepancy was related to a system error, which has now been fixed."
+69111767,900,"The payment discrepancy was related to a system error, which has now been fixed."
+51624104,7000,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+56462134,15000,"The data from the external source is missing key information, and we need to validate before proceeding."
+35924409,54,The reconciliation has been completed. The records now align across all platforms.
+99575802,60,"Once the missing order information is provided, we will proceed with finalizing the reconciliation."
+67014211,2831,"The error was caused by incorrect data formatting, which has now been corrected."
+20972505,357,The wrong transaction ID was used in the initial record. It’s now corrected.
+77638425,835,"The data from the external source is missing key information, and we need to validate before proceeding."
+32066969,8,"The wrong account was initially credited, but the transaction has been rectified and processed correctly."
+18127714,150,"The payment was processed twice, and the duplicate entry has been removed."
+94268694,13,"Please provide the correct transaction ID, and we will continue with the reconciliation process."
+50140494,22,"Once the missing order information is provided, we will proceed with finalizing the reconciliation."
+35978985,600,"The order ID mismatch has been resolved, and the correct amount has been applied."
+84403433,170,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+78613705,800,"The payment discrepancy was related to a system error, which has now been fixed."
+71897375,1566,"The customer provided the correct payment reference, and the discrepancy was cleared."
+45266130,11,The issue has been successfully resolved. The transaction has been matched
+55786523,317,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+67427920,500,The resolved payment was successfully reconciled and updated in the system.
+11476593,410,"Once the missing order information is provided, we will proceed with finalizing the reconciliation."
+66714897,150,"We found a partial payment, but the full transaction details are still missing."
+55296818,28000,"The missing order ID has been found, and the data has been updated accordingly."
+30114030,20,"The payment amount is incorrect, and further investigation is needed to identify the cause of the discrepancy."
+91716285,498,"The order ID and payment do not align with our records, and we are awaiting further confirmation."
+51476972,50,"The comments provided don’t match the transaction details, so we need further clarification."
+71163037,700,The issue has been successfully resolved. The transaction has been matched
+51456900,88,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+85967837,5,"The system is currently down, preventing us from completing the reconciliation."
+76299117,12000,The discrepancy was due to an incorrect payment method. It’s now corrected and reconciled.
+63013333,136.3000031,"The status has been updated, and all records now reflect accurate information and you can download the report again"
+74552575,30,"We found a partial payment, but the full transaction details are still missing."
+63516557,15000,The discrepancy was due to an incorrect payment method. It’s now corrected and reconciled.
+65539005,230,The payment was not found in the corresponding financial report. Additional investigation is required.
+64625802,357,The payment was not found in the corresponding financial report. Additional investigation is required.
+32928867,4063,"The order was refunded due to a customer request, and the issue is now closed."
+57264599,100,"The missing order ID has been found, and the data has been updated accordingly."
+17712168,650,We couldn’t locate the order ID in the system; please verify the transaction details.
+69520500,30700,"The transaction was mistakenly marked as pending, but it is now confirmed and paid"
+32667890,2133,Please verify the order details with the accounting team so we can finalize the reconciliation.
+81306730,271,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+21474964,118,"Please provide the correct transaction ID, and we will continue with the reconciliation process."
+53507415,11,"The payment was processed successfully, and the reconciliation issue is now resolved."
+36410694,425,"The payment was rejected, but we have no details on why. More information is required to resolve."
+34630923,254,"The order ID and payment do not align with our records, and we are awaiting further confirmation."
+50121636,285,"The error was caused by incorrect data formatting, which has now been corrected."
+30266427,1.700000048,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+67686600,41.29999924,"Please provide the correct transaction ID, and we will continue with the reconciliation process."
+72082763,2550,The wrong transaction ID was used in the initial record. It’s now corrected.
+18288806,22,The issue has been reviewed and closed successfully after corrections were applied.
+40055682,751,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+95214704,230,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+46059234,800,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+49486899,535,"The order was refunded due to a customer request, and the issue is now closed."
+72090393,1614,"The transaction was mistakenly marked as pending, but it is now confirmed and paid"
+79889713,3679.399902,We need the customer’s payment reference to proceed with the investigation.
+47794253,2.099999905,The reconciliation has been completed. The records now align across all platforms.
+67629612,3000,"The system is currently down, preventing us from completing the reconciliation."
+44602994,2,"Please provide the correct transaction ID, and we will continue with the reconciliation process."
+31103408,300,The wrong transaction ID was used in the initial record. It’s now corrected.
+92874197,250,"Please provide the correct transaction ID, and we will continue with the reconciliation process."
+43456159,220,"There’s a discrepancy in the order details, and we need more time to resolve it."
+77747044,39,The resolved payment was successfully reconciled and updated in the system.
+91387450,100,The payment was not found in the corresponding financial report. Additional investigation is required.
+63726504,1000,"The wrong account was initially credited, but the transaction has been rectified and processed correctly."
+96756050,4140,"Once the missing order information is provided, we will proceed with finalizing the reconciliation."
+82306759,922,"The order ID and payment do not align with our records, and we are awaiting further confirmation."
+97217561,136,"The payment was rejected, but we have no details on why. More information is required to resolve."
+88536687,60,"The payment was processed twice, and the duplicate entry has been removed."
+91487528,19,"The missing order ID has been found, and the data has been updated accordingly."
+65233475,80,"We found a partial payment, but the full transaction details are still missing."
+29788945,1,"The payment status is still showing as pending, and we need further clarification before resolving."
+39716672,25,"The data from the external source is missing key information, and we need to validate before proceeding."
+30657675,1000,"Once the missing order information is provided, we will proceed with finalizing the reconciliation."
+75861195,50,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+21961279,147,"The payment discrepancy was related to a system error, which has now been fixed."
+22240733,1000,The amount recorded does not match the expected payment. Please double-check the payment details.
+37625748,20,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+92693084,30,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+93682319,100,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+97517313,1300,"The payment gateway didn’t return the correct confirmation, so the order remains unresolved."
+47110013,1000,The issue has been successfully resolved. The transaction has been matched
+48842093,50,We need the customer’s payment reference to proceed with the investigation.
+83876999,4306,"The payment was processed successfully, and the reconciliation issue is now resolved."
+18190236,20,We couldn’t locate the order ID in the system; please verify the transaction details.
+74349340,50,The amount recorded does not match the expected payment. Please double-check the payment details.
+50169680,20,We suggest checking with the payment provider to confirm if the payment was completed successfully.
+78638330,1000,The payment reference provided doesn’t match the system’s record. We need additional verification.
+10415592,500,"We found a partial payment, but the full transaction details are still missing."
+69567395,200,The payment was not found in the corresponding financial report. Additional investigation is required.
+70689402,5,We couldn’t locate the order ID in the system; please verify the transaction details.
+16078704,400,"Once the missing order information is provided, we will proceed with finalizing the reconciliation."
+78195786,5,"The missing data was found, and all accounts are now balanced."
+73725150,1,"The payment was rejected, but we have no details on why. More information is required to resolve."
+26318291,71,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+36086189,100,"The payment amount is incorrect, and further investigation is needed to identify the cause of the discrepancy."
+21689944,10,"The payment amount is incorrect, and further investigation is needed to identify the cause of the discrepancy."
+24355832,1,The issue has been successfully resolved. The transaction has been matched
+42151777,30,Please verify the order details with the accounting team so we can finalize the reconciliation.
+24727180,1,"The data from the external source is missing key information, and we need to validate before proceeding."
+19727476,80,"The error was caused by incorrect data formatting, which has now been corrected."
+57647480,50,"The missing data was found, and all accounts are now balanced."
+67948757,200,"The error was caused by incorrect data formatting, which has now been corrected."
+80614842,100,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+16809166,20,"The wrong account was initially credited, but the transaction has been rectified and processed correctly."
+39521149,100,We couldn’t locate the order ID in the system; please verify the transaction details.
+89675899,600,The amount recorded does not match the expected payment. Please double-check the payment details.
+71895690,3,"Once the missing order information is provided, we will proceed with finalizing the reconciliation."
+60915426,49,"The comments provided don’t match the transaction details, so we need further clarification."
+63729916,100,"The system is currently down, preventing us from completing the reconciliation."
+29937166,100,"The payment amount is incorrect, and further investigation is needed to identify the cause of the discrepancy."
+93870547,260,"The payment was processed successfully, and the reconciliation issue is now resolved."
+65819128,500,The discrepancy was due to an incorrect payment method. It’s now corrected and reconciled.
+17824709,36,The issue has been reviewed and closed successfully after corrections were applied.
+30180704,50,"The order was refunded due to a customer request, and the issue is now closed."
+48455006,70,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+19300574,2,We couldn’t locate the order ID in the system; please verify the transaction details.
+46267899,1,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+57426494,40,Kindly check the payment gateway logs to identify any issues with the transaction.
+36889226,400,"The data from the external source is missing key information, and we need to validate before proceeding."
+36674649,6,"The status has been updated, and all records now reflect accurate information and you can download the report again"
+97750469,500,The payment reference provided doesn’t match the system’s record. We need additional verification.
+84800542,50,"The missing order ID has been found, and the data has been updated accordingly."
+99735745,80,The resolved payment was successfully reconciled and updated in the system.
+20940783,50,The payment was not found in the corresponding financial report. Additional investigation is required.
+97824994,150,The amount recorded does not match the expected payment. Please double-check the payment details.
+92103595,100,"The order was refunded due to a customer request, and the issue is now closed."
+50175197,5,"We found a partial payment, but the full transaction details are still missing."
+36425211,200,"The order was refunded due to a customer request, and the issue is now closed."
+25958901,30,Kindly check the payment gateway logs to identify any issues with the transaction.
+16818717,150,"The order was refunded due to a customer request, and the issue is now closed."
+85446024,6900,"Please provide the correct transaction ID, and we will continue with the reconciliation process."
+66508225,200,"The wrong account was initially credited, but the transaction has been rectified and processed correctly."
+92249565,8,The payment reference provided doesn’t match the system’s record. We need additional verification.
+69083738,500,"The wrong account was initially credited, but the transaction has been rectified and processed correctly."
+55162495,17,Please verify the order details with the accounting team so we can finalize the reconciliation.
+92704365,50,"The system returned an error when processing the payment, so we need to reprocess it."
+22755105,98,"The customer provided the correct payment reference, and the discrepancy was cleared."
+51064389,9,"The order ID and payment do not align with our records, and we are awaiting further confirmation."
+16352113,10,"The payment was processed successfully, and the reconciliation issue is now resolved."
+65350380,1,"The order was refunded due to a customer request, and the issue is now closed."
+42492944,80,"The missing order ID has been found, and the data has been updated accordingly."
+84403515,2000,"The data from the external source is missing key information, and we need to validate before proceeding."
+34417723,6,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+83657001,50,"After reviewing the order, we found the correct payment details. The case is now resolved."
+10512050,50,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+49392766,1,"The payment was rejected, but we have no details on why. More information is required to resolve."
+40687943,25,"After reviewing the order, we found the correct payment details. The case is now resolved."
+94255939,1,"The order was refunded due to a customer request, and the issue is now closed."
+45237106,10,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+80532290,5,Kindly check the payment gateway logs to identify any issues with the transaction.
+24869144,500,"The order ID and payment do not align with our records, and we are awaiting further confirmation."
+61157771,4,"The customer provided the correct payment reference, and the discrepancy was cleared."
+61447178,10,"The customer provided the correct payment reference, and the discrepancy was cleared."
+94087201,100,The issue has been reviewed and closed successfully after corrections were applied.
+65106824,50,"The data from the external source is missing key information, and we need to validate before proceeding."
+85299709,40,"The error was caused by incorrect data formatting, which has now been corrected."
+79097448,1,The payment was not found in the corresponding financial report. Additional investigation is required.
+93995518,2,"The missing order ID has been found, and the data has been updated accordingly."
+36736786,200,"The data from the external source is missing key information, and we need to validate before proceeding."
+69279728,250,We couldn’t locate the order ID in the system; please verify the transaction details.
+49076970,20,"The payment was rejected, but we have no details on why. More information is required to resolve."
+69406006,60,Kindly check the payment gateway logs to identify any issues with the transaction.
+15790970,200,"The error was caused by incorrect data formatting, which has now been corrected."
+44503025,20,The wrong transaction ID was used in the initial record. It’s now corrected.
+27170177,300,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+47439066,10,"Please provide the correct transaction ID, and we will continue with the reconciliation process."
+13704314,183,We couldn’t locate the order ID in the system; please verify the transaction details.
+59615048,50,"The payment discrepancy was related to a system error, which has now been fixed."
+46747603,10,"The payment gateway didn’t return the correct confirmation, so the order remains unresolved."
+96101146,25,"The status has been updated, and all records now reflect accurate information and you can download the report again"
+15343475,75,"We found a partial payment, but the full transaction details are still missing."
+84064946,100,"The payment was rejected, but we have no details on why. More information is required to resolve."
+41879797,10,"Its not been 3 months, wait and then raise for the issue"
+16268930,5,"We found a partial payment, but the full transaction details are still missing."
+75987009,100,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+57904968,150,"The missing data was found, and all accounts are now balanced."
+84798984,28,"The payment discrepancy was related to a system error, which has now been fixed."
+89356196,3,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+77962507,150,"Please provide the correct transaction ID, and we will continue with the reconciliation process."
+63223757,1,"The payment was processed successfully, and the reconciliation issue is now resolved."
+23801859,25,"The payment status is still showing as pending, and we need further clarification before resolving."
+84354804,50,"The status has been updated, and all records now reflect accurate information and you can download the report again"
+17794659,100,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+54647940,150,The resolved payment was successfully reconciled and updated in the system.
+24858904,207,The wrong transaction ID was used in the initial record. It’s now corrected.
+96558412,4,The payment reference provided doesn’t match the system’s record. We need additional verification.
+73077886,250,"The payment was processed successfully, and the reconciliation issue is now resolved."
+68110740,20,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+58485098,3,"The payment status is still showing as pending, and we need further clarification before resolving."
+79627858,10,"The payment was rejected, but we have no details on why. More information is required to resolve."
+29848277,150,"The missing order ID has been found, and the data has been updated accordingly."
+77386900,156,The payment was not found in the corresponding financial report. Additional investigation is required.
+50620717,75,The reconciliation has been completed. The records now align across all platforms.
+71192603,2,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+70558724,18,"Once the missing order information is provided, we will proceed with finalizing the reconciliation."
+73417309,200,Please verify the order details with the accounting team so we can finalize the reconciliation.
+99622317,22,The reconciliation has been completed. The records now align across all platforms.
+44858272,1,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+20177478,10,The wrong transaction ID was used in the initial record. It’s now corrected.
+88375141,100,The wrong transaction ID was used in the initial record. It’s now corrected.
+65535765,30,The reconciliation has been completed. The records now align across all platforms.
+89585580,10,"The payment amount is incorrect, and further investigation is needed to identify the cause of the discrepancy."
+99410219,3,We couldn’t locate the order ID in the system; please verify the transaction details.
+55691819,10,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+90543964,10,"There’s a discrepancy in the order details, and we need more time to resolve it."
+85612952,15,"The order ID and payment do not align with our records, and we are awaiting further confirmation."
+20287097,25,Kindly check the payment gateway logs to identify any issues with the transaction.
+85277740,400,"The order was refunded due to a customer request, and the issue is now closed."
+40832488,97,"The missing data was found, and all accounts are now balanced."
+91047873,46,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+21600272,200,"The comments provided don’t match the transaction details, so we need further clarification."
+78902543,148,"The error was caused by incorrect data formatting, which has now been corrected."
+98116130,500,"The customer provided the correct payment reference, and the discrepancy was cleared."
+84084953,100,The issue has been successfully resolved. The transaction has been matched
+85928022,80,"The payment was processed twice, and the duplicate entry has been removed."
+38323970,1000,"The payment discrepancy was related to a system error, which has now been fixed."
+97907363,25,"The payment was rejected, but we have no details on why. More information is required to resolve."
+20236006,50,"The wrong account was initially credited, but the transaction has been rectified and processed correctly."
+49152490,10,We couldn’t locate the order ID in the system; please verify the transaction details.
+58084440,9,"The reconciliation process was interrupted, and we need to restart it to verify the data."
+44108018,100,"The customer provided the correct payment reference, and the discrepancy was cleared."
+45177266,40,"The customer provided the correct payment reference, and the discrepancy was cleared."
+35155523,20,The payment was not found in the corresponding financial report. Additional investigation is required.
+38213120,2,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+54844061,5000,"The transaction was mistakenly marked as pending, but it is now confirmed and paid"
+10670699,2,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+51085870,5,"The missing data was found, and all accounts are now balanced."
+19845928,10,The resolved payment was successfully reconciled and updated in the system.
+10203255,3,"We found a partial payment, but the full transaction details are still missing."
+56577058,46,"The system returned an error when processing the payment, so we need to reprocess it."
+98287663,20,"The missing order ID has been found, and the data has been updated accordingly."
+74016260,5,"Once the missing order information is provided, we will proceed with finalizing the reconciliation."
+93217004,100,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+77019357,10,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+43562749,100,"The payment was rejected, but we have no details on why. More information is required to resolve."
+83499159,5,"The transaction was mistakenly marked as pending, but it is now confirmed and paid"
+49522692,10,"The transaction was mistakenly marked as pending, but it is now confirmed and paid"
+12252485,200,"The payment discrepancy was related to a system error, which has now been fixed."
+83464863,200,"The payment was processed twice, and the duplicate entry has been removed."
+32939216,20,The resolved payment was successfully reconciled and updated in the system.
+82241669,75,"The missing data was found, and all accounts are now balanced."
+95780962,9,"The system is currently down, preventing us from completing the reconciliation."
+67539153,600,"The system is currently down, preventing us from completing the reconciliation."
+90229633,40,"The wrong account was initially credited, but the transaction has been rectified and processed correctly."
+67303074,100,"The missing data was found, and all accounts are now balanced."
+84965844,6,The resolved payment was successfully reconciled and updated in the system.
+13951990,300,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+35963599,12,"The payment amount is incorrect, and further investigation is needed to identify the cause of the discrepancy."
+93286682,5,"The payment was rejected, but we have no details on why. More information is required to resolve."
+89179084,5,We need the customer’s payment reference to proceed with the investigation.
+82061435,50,"The payment was processed twice, and the duplicate entry has been removed."
+92783722,100,"The payment amount is incorrect, and further investigation is needed to identify the cause of the discrepancy."
+46590569,4,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+20769582,199,"The order was refunded due to a customer request, and the issue is now closed."
+63056535,5,"The status has been updated, and all records now reflect accurate information and you can download the report again"
+80606186,2,We need the customer’s payment reference to proceed with the investigation.
+99615118,20,"Once the missing order information is provided, we will proceed with finalizing the reconciliation."
+71914280,2,The issue has been successfully resolved. The transaction has been matched
+75398276,49,"The payment amount is incorrect, and further investigation is needed to identify the cause of the discrepancy."
+66639184,100,"The missing data was found, and all accounts are now balanced."
+58435378,50,"The payment gateway didn’t return the correct confirmation, so the order remains unresolved."
+43464548,244,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+40408690,150,"The payment status is still showing as pending, and we need further clarification before resolving."
+96864568,14,"The payment was rejected, but we have no details on why. More information is required to resolve."
+93646370,19,"The payment discrepancy was related to a system error, which has now been fixed."
+60331355,197,The issue has been successfully resolved. The transaction has been matched
+96604928,500,"The payment discrepancy was related to a system error, which has now been fixed."
+50424564,1,The amount recorded does not match the expected payment. Please double-check the payment details.
+62753680,500,The discrepancy was due to an incorrect payment method. It’s now corrected and reconciled.
+73311859,3,"The order was refunded due to a customer request, and the issue is now closed."
+91997915,150,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+70776569,400,"The order ID and payment do not align with our records, and we are awaiting further confirmation."
+25362225,5,We need the customer’s payment reference to proceed with the investigation.
+81114286,2,"The customer provided the correct payment reference, and the discrepancy was cleared."
+54787097,1,Please verify the order details with the accounting team so we can finalize the reconciliation.
+53486983,17,"We found a partial payment, but the full transaction details are still missing."
+41681040,243,We need the customer’s payment reference to proceed with the investigation.
+39933702,30,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+97857169,15,"The payment discrepancy was related to a system error, which has now been fixed."
+89410693,1,The reconciliation has been completed. The records now align across all platforms.
+15989891,600,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+14660046,100,"The system is currently down, preventing us from completing the reconciliation."
+13440167,30,"The reconciliation process was interrupted, and we need to restart it to verify the data."
+13847073,150,"The missing order ID has been found, and the data has been updated accordingly."
+18247339,45,"The payment status is still showing as pending, and we need further clarification before resolving."
+65943410,200,The reconciliation has been completed. The records now align across all platforms.
+34110164,400,We need the customer’s payment reference to proceed with the investigation.
+27369395,50,Kindly check the payment gateway logs to identify any issues with the transaction.
+63175905,5,The amount recorded does not match the expected payment. Please double-check the payment details.
+98612975,45,The discrepancy was due to an incorrect payment method. It’s now corrected and reconciled.
+94629012,40,The amount recorded does not match the expected payment. Please double-check the payment details.
+69706374,13,The payment was not found in the corresponding financial report. Additional investigation is required.
+89429345,300,The discrepancy was due to an incorrect payment method. It’s now corrected and reconciled.
+12599332,29,The reconciliation has been completed. The records now align across all platforms.
+64808093,1000,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+33941443,100,"The error was caused by incorrect data formatting, which has now been corrected."
+86581664,4,"The payment amount is incorrect, and further investigation is needed to identify the cause of the discrepancy."
+86433540,1500,"The order was refunded due to a customer request, and the issue is now closed."
+83207481,176,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+38620600,10,The payment reference provided doesn’t match the system’s record. We need additional verification.
+14332489,1,We couldn’t locate the order ID in the system; please verify the transaction details.
+77893925,10,"The order ID and payment do not align with our records, and we are awaiting further confirmation."
+60477196,1,"The system returned an error when processing the payment, so we need to reprocess it."
+60959361,20,"The data from the external source is missing key information, and we need to validate before proceeding."
+21442740,100,"The status has been updated, and all records now reflect accurate information and you can download the report again"
+86884624,150,The reconciliation has been completed. The records now align across all platforms.
+96438101,16,"There’s a discrepancy in the order details, and we need more time to resolve it."
+54658405,100,Kindly check the payment gateway logs to identify any issues with the transaction.
+57484048,100,"The reconciliation process was interrupted, and we need to restart it to verify the data."
+24985179,25,"The payment was processed twice, and the duplicate entry has been removed."
+30494638,86,"The system returned an error when processing the payment, so we need to reprocess it."
+22841033,1000,"The transaction was mistakenly marked as pending, but it is now confirmed and paid"
+14044456,32,"The missing order ID has been found, and the data has been updated accordingly."
+17205076,2,"After reviewing the order, we found the correct payment details. The case is now resolved."
+76811838,388,"The order was refunded due to a customer request, and the issue is now closed."
+30482037,10,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+23875400,20,We couldn’t locate the order ID in the system; please verify the transaction details.
+38885704,1,The amount recorded does not match the expected payment. Please double-check the payment details.
+66888155,30,"The system returned an error when processing the payment, so we need to reprocess it."
+99071069,50,Please verify the order details with the accounting team so we can finalize the reconciliation.
+35407820,29,"The error was caused by incorrect data formatting, which has now been corrected."
+19996643,20,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+66064678,60,Kindly check the payment gateway logs to identify any issues with the transaction.
+84890041,10,"The payment was processed twice, and the duplicate entry has been removed."
+65540120,4,"The data from the external source is missing key information, and we need to validate before proceeding."
+26700131,55,The reconciliation has been completed. The records now align across all platforms.
+68628812,200,"The reconciliation process was interrupted, and we need to restart it to verify the data."
+59088914,60,We need the customer’s payment reference to proceed with the investigation.
+81967162,47,We suggest checking with the payment provider to confirm if the payment was completed successfully.
+62084391,50,"The wrong account was initially credited, but the transaction has been rectified and processed correctly."
+83043716,500,"The missing order ID has been found, and the data has been updated accordingly."
+38941093,30,The issue has been successfully resolved. The transaction has been matched
+82698303,1,"The payment discrepancy was related to a system error, which has now been fixed."
+55983664,30,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+22543025,245,Kindly check the payment gateway logs to identify any issues with the transaction.
+74963081,30,"The error was caused by incorrect data formatting, which has now been corrected."
+59791362,34,"The payment gateway didn’t return the correct confirmation, so the order remains unresolved."
+37966702,8,"The reconciliation process was interrupted, and we need to restart it to verify the data."
+34159081,1,We suggest checking with the payment provider to confirm if the payment was completed successfully.
+36585540,500,The issue has been successfully resolved. The transaction has been matched
+61923247,3,"The order ID and payment do not align with our records, and we are awaiting further confirmation."
+62294156,1000,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+43063103,4,"The payment was processed successfully, and the reconciliation issue is now resolved."
+37307539,30,"The payment was processed successfully, and the reconciliation issue is now resolved."
+57852245,1000,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+46041007,100,"The customer provided the correct payment reference, and the discrepancy was cleared."
+97793098,28,"The payment status is still showing as pending, and we need further clarification before resolving."
+25404747,101,"The transaction was mistakenly marked as pending, but it is now confirmed and paid"
+22078319,9,"The payment status is still showing as pending, and we need further clarification before resolving."
+24146520,20,The payment reference provided doesn’t match the system’s record. We need additional verification.
+81781322,30,The amount recorded does not match the expected payment. Please double-check the payment details.
+69678100,1000,The wrong transaction ID was used in the initial record. It’s now corrected.
+72968901,564,"The customer provided the correct payment reference, and the discrepancy was cleared."
+38380607,30,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+33095755,6,"The system is currently down, preventing us from completing the reconciliation."
+74699524,20,The payment was not found in the corresponding financial report. Additional investigation is required.
+67400446,3,"The customer provided the correct payment reference, and the discrepancy was cleared."
+13082278,400,"The order was refunded due to a customer request, and the issue is now closed."
+95508405,20,"After reviewing the order, we found the correct payment details. The case is now resolved."
+71530472,250,The amount recorded does not match the expected payment. Please double-check the payment details.
+35647444,3,"The order was refunded due to a customer request, and the issue is now closed."
+96102988,40,"The reconciliation process was interrupted, and we need to restart it to verify the data."
+55648302,50,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+14501386,2,"The reconciliation process was interrupted, and we need to restart it to verify the data."
+91143051,18,"We found a partial payment, but the full transaction details are still missing."
+17346900,200,"There’s a discrepancy in the order details, and we need more time to resolve it."
+17923472,50,"The comments provided don’t match the transaction details, so we need further clarification."
+98694022,1,"The transaction was mistakenly marked as pending, but it is now confirmed and paid"
+93794658,80,"Once the missing order information is provided, we will proceed with finalizing the reconciliation."
+64688103,60,We need the customer’s payment reference to proceed with the investigation.
+68303166,400,"The data from the external source is missing key information, and we need to validate before proceeding."
+87338670,50,Kindly check the payment gateway logs to identify any issues with the transaction.
+94549448,18,"After reviewing the order, we found the correct payment details. The case is now resolved."
+69215772,100,"The missing order ID has been found, and the data has been updated accordingly."
+94665578,100,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+81155727,500,"The payment gateway didn’t return the correct confirmation, so the order remains unresolved."
+38890691,60,"The payment status is still showing as pending, and we need further clarification before resolving."
+47984311,100,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+88749495,10,The issue has been successfully resolved. The transaction has been matched
+92280862,30,"Once the missing order information is provided, we will proceed with finalizing the reconciliation."
+45826833,199,The amount recorded does not match the expected payment. Please double-check the payment details.
+22144525,100,"The comments provided don’t match the transaction details, so we need further clarification."
+78766449,6,"The data from the external source is missing key information, and we need to validate before proceeding."
+80463490,115,We need the customer’s payment reference to proceed with the investigation.
+92340843,5,The wrong transaction ID was used in the initial record. It’s now corrected.
+83149872,2,"The system is currently down, preventing us from completing the reconciliation."
+22976577,100,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+12024825,57,"The system is currently down, preventing us from completing the reconciliation."
+51771672,500,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+29682974,150,"The payment gateway didn’t return the correct confirmation, so the order remains unresolved."
+37880804,3,"The wrong account was initially credited, but the transaction has been rectified and processed correctly."
+77551914,17,"We found a partial payment, but the full transaction details are still missing."
+28102471,35,The resolved payment was successfully reconciled and updated in the system.
+75890445,70,"The error was caused by incorrect data formatting, which has now been corrected."
+77138615,1,"The status has been updated, and all records now reflect accurate information and you can download the report again"
+21375711,300,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+43764916,2000,"The wrong account was initially credited, but the transaction has been rectified and processed correctly."
+29543066,1,We need the customer’s payment reference to proceed with the investigation.
+18431279,50,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+25959316,5,"The data from the external source is missing key information, and we need to validate before proceeding."
+45205201,1,"We found a partial payment, but the full transaction details are still missing."
+11112814,50,"The payment was processed twice, and the duplicate entry has been removed."
+10957829,250,"The payment was processed successfully, and the reconciliation issue is now resolved."
+49264248,1000,"The comments provided don’t match the transaction details, so we need further clarification."
+67336579,95,"The error was caused by incorrect data formatting, which has now been corrected."
+62849294,75,The amount recorded does not match the expected payment. Please double-check the payment details.
+29649403,5,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+75612816,50,The amount recorded does not match the expected payment. Please double-check the payment details.
+51137286,2,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+64868632,10,The issue has been reviewed and closed successfully after corrections were applied.
+32872138,10,"Please provide the correct transaction ID, and we will continue with the reconciliation process."
+20811966,30,"The wrong account was initially credited, but the transaction has been rectified and processed correctly."
+90065257,3,"The missing order ID has been found, and the data has been updated accordingly."
+97823294,1,The wrong transaction ID was used in the initial record. It’s now corrected.
+61628329,56,"The payment was rejected, but we have no details on why. More information is required to resolve."
+35700594,50,We suggest checking with the payment provider to confirm if the payment was completed successfully.
+25745693,100,The wrong transaction ID was used in the initial record. It’s now corrected.
+48804248,50,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+78255034,200,The reconciliation has been completed. The records now align across all platforms.
+33675460,870,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+90139911,230,"The transaction was mistakenly marked as pending, but it is now confirmed and paid"
+12350750,12,"The comments provided don’t match the transaction details, so we need further clarification."
+44172083,300,The issue has been successfully resolved. The transaction has been matched
+52878977,100,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+17191405,250,"The missing order ID has been found, and the data has been updated accordingly."
+10825577,247,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+22195570,1,The discrepancy was due to an incorrect payment method. It’s now corrected and reconciled.
+49018214,1,The payment was not found in the corresponding financial report. Additional investigation is required.
+10861423,50,"Please provide the correct transaction ID, and we will continue with the reconciliation process."
+96790489,10,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+89423403,30,"The system is currently down, preventing us from completing the reconciliation."
+26930308,30,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+55324398,100,The issue has been reviewed and closed successfully after corrections were applied.
+45530709,200,"The data from the external source is missing key information, and we need to validate before proceeding."
+35222783,19,"The order ID mismatch has been resolved, and the correct amount has been applied."
+46625635,50,"The payment was rejected, but we have no details on why. More information is required to resolve."
+10951588,10,The discrepancy was due to an incorrect payment method. It’s now corrected and reconciled.
+93209937,50,"The order ID mismatch has been resolved, and the correct amount has been applied."
+43114323,300,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+98085843,59,The issue has been successfully resolved. The transaction has been matched
+63388803,50,"The data from the external source is missing key information, and we need to validate before proceeding."
+59868442,200,The resolved payment was successfully reconciled and updated in the system.
+97521893,25,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+23407347,50,The issue has been reviewed and closed successfully after corrections were applied.
+31418177,50,Please verify the order details with the accounting team so we can finalize the reconciliation.
+39918562,2200,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+41290874,5,Please verify the order details with the accounting team so we can finalize the reconciliation.
+36084532,500,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+74477543,20,"The missing order ID has been found, and the data has been updated accordingly."
+21665539,20,"The payment gateway didn’t return the correct confirmation, so the order remains unresolved."
+14034843,1,"The transaction was mistakenly marked as pending, but it is now confirmed and paid"
+54393842,20,The amount recorded does not match the expected payment. Please double-check the payment details.
+56834559,10,"The missing order ID has been found, and the data has been updated accordingly."
+45526700,1000,"The error was caused by incorrect data formatting, which has now been corrected."
+97527910,100,"The reconciliation process was interrupted, and we need to restart it to verify the data."
+68429386,93,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+53884309,120,The payment reference provided doesn’t match the system’s record. We need additional verification.
+78880129,13,The amount recorded does not match the expected payment. Please double-check the payment details.
+54743948,200,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+29681595,22,Please verify the order details with the accounting team so we can finalize the reconciliation.
+98393130,10,"The missing order ID has been found, and the data has been updated accordingly."
+12902686,35,"The missing order ID has been found, and the data has been updated accordingly."
+25937639,120,"The order ID and payment do not align with our records, and we are awaiting further confirmation."
+68224542,50,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+27301435,100,"The payment was rejected, but we have no details on why. More information is required to resolve."
+25751485,299,"The payment discrepancy was related to a system error, which has now been fixed."
+53008999,1000,"The customer provided the correct payment reference, and the discrepancy was cleared."
+76977409,1,"The order was refunded due to a customer request, and the issue is now closed."
+18457080,50,"The payment was rejected, but we have no details on why. More information is required to resolve."
+86872797,48,"The comments provided don’t match the transaction details, so we need further clarification."
+98066135,20,"The system is currently down, preventing us from completing the reconciliation."
+78363603,50,Kindly check the payment gateway logs to identify any issues with the transaction.
+43328073,41,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+18118585,2,"The customer provided the correct payment reference, and the discrepancy was cleared."
+69708167,650,The payment was not found in the corresponding financial report. Additional investigation is required.
+40372647,7,"Its not been 3 months, wait and then raise for the issue"
+44163688,5,The issue has been reviewed and closed successfully after corrections were applied.
+19276757,600,"The payment amount is incorrect, and further investigation is needed to identify the cause of the discrepancy."
+96515801,100,"The status has been updated, and all records now reflect accurate information and you can download the report again"
+25209753,47,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+37090669,14,"The missing data was found, and all accounts are now balanced."
+86382788,50,"The payment was processed twice, and the duplicate entry has been removed."
+21302021,100,"The payment was processed twice, and the duplicate entry has been removed."
+70830217,10,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+22090999,300,"The customer provided the correct payment reference, and the discrepancy was cleared."
+97496788,10,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+21673123,50,Please verify the order details with the accounting team so we can finalize the reconciliation.
+31626491,1,The payment reference provided doesn’t match the system’s record. We need additional verification.
+89106221,4,"The customer provided the correct payment reference, and the discrepancy was cleared."
+24615069,169,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+67833950,80,"The error was caused by incorrect data formatting, which has now been corrected."
+38193399,40,"The reconciliation process was interrupted, and we need to restart it to verify the data."
+38106521,599,The payment was not found in the corresponding financial report. Additional investigation is required.
+54449861,50,The reconciliation has been completed. The records now align across all platforms.
+60094781,100,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+57190695,1000,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+13596061,100,The payment was not found in the corresponding financial report. Additional investigation is required.
+15896044,700,Please verify the order details with the accounting team so we can finalize the reconciliation.
+12261362,3,"The wrong account was initially credited, but the transaction has been rectified and processed correctly."
+28073383,20,The issue has been reviewed and closed successfully after corrections were applied.
+37076970,5,"The reconciliation process was interrupted, and we need to restart it to verify the data."
+58547439,6,The payment reference provided doesn’t match the system’s record. We need additional verification.
+39419549,50,The reconciliation has been completed. The records now align across all platforms.
+37232877,1,Kindly check the payment gateway logs to identify any issues with the transaction.
+48419471,5,"The order was refunded due to a customer request, and the issue is now closed."
+50167748,19,"The reconciliation process was interrupted, and we need to restart it to verify the data."
+47730311,900,"After reviewing the order, we found the correct payment details. The case is now resolved."
+49480975,20,"The data from the external source is missing key information, and we need to validate before proceeding."
+31854469,3,The payment was not found in the corresponding financial report. Additional investigation is required.
+16481377,30,The reconciliation has been completed. The records now align across all platforms.
+68293384,5400,"The order ID and payment do not align with our records, and we are awaiting further confirmation."
+65720843,4,"We found a partial payment, but the full transaction details are still missing."
+15494895,500,"There’s a discrepancy in the order details, and we need more time to resolve it."
+61540462,1000,"The order ID and payment do not align with our records, and we are awaiting further confirmation."
+82336280,300,"The payment was processed successfully, and the reconciliation issue is now resolved."
+15813086,50,The amount recorded does not match the expected payment. Please double-check the payment details.
+15745147,2,"The order ID mismatch has been resolved, and the correct amount has been applied."
+39507139,3,"The payment was processed twice, and the duplicate entry has been removed."
+86702945,1,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+28255885,10,Kindly check the payment gateway logs to identify any issues with the transaction.
+95813679,3,The issue has been successfully resolved. The transaction has been matched
+28274084,200,"The system is currently down, preventing us from completing the reconciliation."
+13085933,100,The reconciliation has been completed. The records now align across all platforms.
+39570077,130,We need the customer’s payment reference to proceed with the investigation.
+18362059,250,We couldn’t locate the order ID in the system; please verify the transaction details.
+15735017,100,The payment reference provided doesn’t match the system’s record. We need additional verification.
+93248916,73,"The reconciliation process was interrupted, and we need to restart it to verify the data."
+80929165,90,Please verify the order details with the accounting team so we can finalize the reconciliation.
+20996049,80,"The payment was processed twice, and the duplicate entry has been removed."
+24097531,2,"The reconciliation process was interrupted, and we need to restart it to verify the data."
+68408287,500,"The payment amount is incorrect, and further investigation is needed to identify the cause of the discrepancy."
+16055864,100,The wrong transaction ID was used in the initial record. It’s now corrected.
+14814292,20,"The error was caused by incorrect data formatting, which has now been corrected."
+27677564,300,"The missing order ID has been found, and the data has been updated accordingly."
+81462247,1,Please verify the order details with the accounting team so we can finalize the reconciliation.
+79997761,500,We need the customer’s payment reference to proceed with the investigation.
+86081654,10,The issue has been successfully resolved. The transaction has been matched
+93508824,300,"The system is currently down, preventing us from completing the reconciliation."
+78210083,5,"Its not been 3 months, wait and then raise for the issue"
+75831249,4,"The data from the external source is missing key information, and we need to validate before proceeding."
+82089912,100,"The missing order ID has been found, and the data has been updated accordingly."
+40681121,50,The amount recorded does not match the expected payment. Please double-check the payment details.
+73337301,20,"The missing data was found, and all accounts are now balanced."
+32090954,200,"The order ID mismatch has been resolved, and the correct amount has been applied."
+98145624,11,The resolved payment was successfully reconciled and updated in the system.
+48523812,268,"After reviewing the order, we found the correct payment details. The case is now resolved."
+61386211,2,"The payment was rejected, but we have no details on why. More information is required to resolve."
+20237331,29,"The order was refunded due to a customer request, and the issue is now closed."
+30510380,200,"The data from the external source is missing key information, and we need to validate before proceeding."
+76798927,518,"The payment status is still showing as pending, and we need further clarification before resolving."
+67218172,20,The issue has been reviewed and closed successfully after corrections were applied.
+14526405,50,"The order was refunded due to a customer request, and the issue is now closed."
+24174523,500,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+34796794,1,Please verify the order details with the accounting team so we can finalize the reconciliation.
+44098697,953,"The status has been updated, and all records now reflect accurate information and you can download the report again"
+67862005,15,"Its not been 3 months, wait and then raise for the issue"
+55972624,300,We couldn’t locate the order ID in the system; please verify the transaction details.
+52281998,1,"We found a partial payment, but the full transaction details are still missing."
+51520157,50,The issue has been successfully resolved. The transaction has been matched
+46148357,100,"We found a partial payment, but the full transaction details are still missing."
+12505323,1000,The reconciliation has been completed. The records now align across all platforms.
+77032823,25,"The system returned an error when processing the payment, so we need to reprocess it."
+29836892,3,"The transaction was mistakenly marked as pending, but it is now confirmed and paid"
+15510580,12,"The transaction was mistakenly marked as pending, but it is now confirmed and paid"
+75838354,25,The amount recorded does not match the expected payment. Please double-check the payment details.
+88196592,4,The wrong transaction ID was used in the initial record. It’s now corrected.
+90460135,1,"The payment discrepancy was related to a system error, which has now been fixed."
+60986784,2,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+36117639,100,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+87624570,500,"The transaction was mistakenly marked as pending, but it is now confirmed and paid"
+13069429,1000,"The reconciliation process was interrupted, and we need to restart it to verify the data."
+92746758,100,"The payment gateway didn’t return the correct confirmation, so the order remains unresolved."
+33098524,25,"The payment gateway didn’t return the correct confirmation, so the order remains unresolved."
+24374361,120,"The payment was rejected, but we have no details on why. More information is required to resolve."
+59695088,2,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+59776274,50,We need the customer’s payment reference to proceed with the investigation.
+83620219,5,The reconciliation has been completed. The records now align across all platforms.
+83590932,1,"The payment gateway didn’t return the correct confirmation, so the order remains unresolved."
+84309276,1,"The order was refunded due to a customer request, and the issue is now closed."
+41444142,18,"The missing data was found, and all accounts are now balanced."
+31020603,200,The payment was not found in the corresponding financial report. Additional investigation is required.
+71758667,300,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+46303763,10,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+54285371,100,"The reconciliation process was interrupted, and we need to restart it to verify the data."
+18330111,10,"The payment was rejected, but we have no details on why. More information is required to resolve."
+42043959,5,"After reviewing the order, we found the correct payment details. The case is now resolved."
+83610253,500,The amount recorded does not match the expected payment. Please double-check the payment details.
+74421922,5,"The comments provided don’t match the transaction details, so we need further clarification."
+22519514,100,"There’s a discrepancy in the order details, and we need more time to resolve it."
+73355107,35000,"The system is currently down, preventing us from completing the reconciliation."
+60815279,100,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+37340099,20,"The order ID mismatch has been resolved, and the correct amount has been applied."
+38050318,800,"The order ID mismatch has been resolved, and the correct amount has been applied."
+69581996,17,We couldn’t locate the order ID in the system; please verify the transaction details.
+91271699,30,"After reviewing the order, we found the correct payment details. The case is now resolved."
+72144722,5,Please verify the order details with the accounting team so we can finalize the reconciliation.
+21435541,10,Kindly check the payment gateway logs to identify any issues with the transaction.
+22687493,500,Please verify the order details with the accounting team so we can finalize the reconciliation.
+56085972,425,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+94326006,126,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+95747627,20,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+69040244,10,"The payment was rejected, but we have no details on why. More information is required to resolve."
+90902334,250,"The comments provided don’t match the transaction details, so we need further clarification."
+71569531,500,"The order ID mismatch has been resolved, and the correct amount has been applied."
+91321404,10,"The system is currently down, preventing us from completing the reconciliation."
+79132499,1,"The payment was rejected, but we have no details on why. More information is required to resolve."
+97979098,200,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+24378985,50,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+71716559,1,"The payment was rejected, but we have no details on why. More information is required to resolve."
+46129853,16,"The data from the external source is missing key information, and we need to validate before proceeding."
+32203657,47,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+46387502,100,We need the customer’s payment reference to proceed with the investigation.
+43504431,13,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+54719338,30,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+50274587,600,"The comments provided don’t match the transaction details, so we need further clarification."
+85871045,20,"The data from the external source is missing key information, and we need to validate before proceeding."
+29976412,20,"The customer provided the correct payment reference, and the discrepancy was cleared."
+28532743,100,"The customer provided the correct payment reference, and the discrepancy was cleared."
+28940505,100,"The system is currently down, preventing us from completing the reconciliation."
+17044587,50,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+16730750,100,The payment status remains “processing.” We need to wait for it to finalize before reconciling.
+57978403,200,"After reviewing the order, we found the correct payment details. The case is now resolved."
+15236715,185,Please verify the order details with the accounting team so we can finalize the reconciliation.
+40931991,10,"The data from the external source is missing key information, and we need to validate before proceeding."
+39100456,1,"The payment was processed successfully, and the reconciliation issue is now resolved."
+31357172,116,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+72138893,20,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+89073657,200,"The payment was rejected, but we have no details on why. More information is required to resolve."
+64594846,14,Kindly check the payment gateway logs to identify any issues with the transaction.
+15934735,7,"The order ID mismatch has been resolved, and the correct amount has been applied."
+20457243,80,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+94788562,20,"The status has been updated, and all records now reflect accurate information and you can download the report again"
+46069898,10,Kindly check the payment gateway logs to identify any issues with the transaction.
+18137884,10,The payment was not found in the corresponding financial report. Additional investigation is required.
+57114031,1000,"The order ID and payment do not align with our records, and we are awaiting further confirmation."
+91110755,25,The amount recorded does not match the expected payment. Please double-check the payment details.
+14945965,1,The payment reference provided doesn’t match the system’s record. We need additional verification.
+50410453,1000,"The customer provided the correct payment reference, and the discrepancy was cleared."
+28313523,10,"The order was refunded due to a customer request, and the issue is now closed."
+47468168,230,"The payment was rejected, but we have no details on why. More information is required to resolve."
+97330047,10,The issue has been successfully resolved. The transaction has been matched
+48880559,3,"Once the missing order information is provided, we will proceed with finalizing the reconciliation."
+91822857,12,"Please provide the correct transaction ID, and we will continue with the reconciliation process."
+69299215,100,"The order ID mismatch has been resolved, and the correct amount has been applied."
+88307450,150,The resolved payment was successfully reconciled and updated in the system.
+98372107,5,"The payment status is still showing as pending, and we need further clarification before resolving."
+15681634,50,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+68163896,3,"The missing order ID has been found, and the data has been updated accordingly."
+63327378,18,"Once the missing order information is provided, we will proceed with finalizing the reconciliation."
+22442046,5,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+92431127,100,"We found a partial payment, but the full transaction details are still missing."
+92450448,4,"Once the missing order information is provided, we will proceed with finalizing the reconciliation."
+18878448,10,The resolved payment was successfully reconciled and updated in the system.
+43446878,5,"The missing order ID has been found, and the data has been updated accordingly."
+45433711,20,"The payment amount is incorrect, and further investigation is needed to identify the cause of the discrepancy."
+53822131,981,The amount recorded does not match the expected payment. Please double-check the payment details.
+90087936,30,"Its not been 3 months, wait and then raise for the issue"
+12691685,5,"The order was refunded due to a customer request, and the issue is now closed."
+55338376,20,The payment reference provided doesn’t match the system’s record. We need additional verification.
+66184382,10,"The order ID and payment do not align with our records, and we are awaiting further confirmation."
+60277833,19,"The transaction was mistakenly marked as pending, but it is now confirmed and paid"
+19318496,1000,"The data from the external source is missing key information, and we need to validate before proceeding."
+92522643,10,The transaction appears to have been processed but wasn’t recorded in the system. Further investigation needed.
+89256945,10,Please verify the order details with the accounting team so we can finalize the reconciliation.
+57970255,2,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+74449401,200,"Please update the missing fields, and we’ll reprocess the transaction for reconciliation."
+63203585,3,"The system glitch that caused the mismatch was fixed, and the transaction has been reconciled."
+53087192,113,"The order was refunded due to a customer request, and the issue is now closed."
+36078735,15,"The order ID mismatch has been resolved, and the correct amount has been applied."
+98515700,150,The wrong transaction ID was used in the initial record. It’s now corrected.
+93164448,100,"The system returned an error when processing the payment, so we need to reprocess it."
+86295684,20,"The status has been updated, and all records now reflect accurate information and you can download the report again"
+11851550,100,"The payment status is still showing as pending, and we need further clarification before resolving."
+41022757,12,"After reviewing the order, we found the correct payment details. The case is now resolved."
+73567464,40,"The payment was rejected, but we have no details on why. More information is required to resolve."
+78757746,200,The reconciliation has been completed. The records now align across all platforms.
+45018269,1,"The payment amount is incorrect, and further investigation is needed to identify the cause of the discrepancy."
+49472214,2387,The transaction needs to be manually confirmed before we can proceed with reconciliation.
+85972391,51,"The payment was processed successfully, and the reconciliation issue is now resolved."
+76146022,60,The payment reference provided doesn’t match the system’s record. We need additional verification.
+10115035,600,"The payment was rejected, but we have no details on why. More information is required to resolve."
+34753260,4,"The missing data was found, and all accounts are now balanced."
+75160560,11,The payment was not found in the corresponding financial report. Additional investigation is required.
+54596439,20,The payment reference provided doesn’t match the system’s record. We need additional verification.
+39269759,1,The wrong transaction ID was used in the initial record. It’s now corrected.
+91141624,32,The payment was not found in the corresponding financial report. Additional investigation is required.
+96390132,1,"The order and payment were recorded under different categories, so we need to reassign them for reconciliation."
+90932772,10,"The missing order ID has been found, and the data has been updated accordingly."
+87150487,10,"The payment gateway didn’t return the correct confirmation, so the order remains unresolved."
+17847435,100,"The customer provided the correct payment reference, and the discrepancy was cleared."
+92815243,35,The amount recorded does not match the expected payment. Please double-check the payment details.
+79026903,200,"After reviewing the order, we found the correct payment details. The case is now resolved."
+64845003,60,"The payment was rejected, but we have no details on why. More information is required to resolve."
+81107557,250,"The missing data was found, and all accounts are now balanced."
+21655975,654,"We found a partial payment, but the full transaction details are still missing."
+13359585,3,"The payment amount is incorrect, and further investigation is needed to identify the cause of the discrepancy."
+16230846,15,The issue has been successfully resolved. The transaction has been matched
+12202770,1,"The status has been updated, and all records now reflect accurate information and you can download the report again"
+59465121,12,"The missing order ID has been found, and the data has been updated accordingly."
+39694941,14,The issue has been successfully resolved. The transaction has been matched
+84236115,40,We need the customer’s payment reference to proceed with the investigation.
+90817852,30,Please verify the order details with the accounting team so we can finalize the reconciliation.
+87922114,40,"The system returned an error when processing the payment, so we need to reprocess it."
