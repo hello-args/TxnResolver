@@ -62,7 +62,7 @@ These CSV files should contain transaction data with necessary columns such as `
 ## Running the Script
 Execute the script with:
 ```bash
-python script.py
+python zen_assign.py
 ```
 
 ### Expected Output
