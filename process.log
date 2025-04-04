@@ -1,0 +1,196 @@
+2025-04-04 06:24:00,013 - INFO - Logging initialized.
+2025-04-04 06:24:00,044 - INFO - Ollama LLM initialized.
+2025-04-04 06:24:00,044 - INFO - Loading datasets.
+2025-04-04 06:24:00,412 - INFO - Datasets loaded successfully.
+2025-04-04 06:24:00,491 - INFO - Executing graph workflow.
+2025-04-04 06:24:04,232 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:24:06,455 - INFO - Transaction 44516715 classified with info: {'status': 'unresolved',
+    'summary': 'Payment not found in the corresponding financial report, additional investigation required.',
+    'next_step': 'Investigate missing system B details (sys_b_date, sys_b_amount_attribute_1, sys_b_amount_attribute_2) and reconciliation status for SysB.'}
+2025-04-04 06:24:06,456 - INFO - 1 event done
+2025-04-04 06:24:07,755 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:24:09,795 - INFO - Transaction 34286015 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction not found in system B. Missing sys_b_date, sys_b_amount_attribute_1 and sys_b_amount_attribute_2.',
+    'next_step': 'Obtain the missing details from system B to reconcile the transaction.'}
+2025-04-04 06:24:09,795 - INFO - 1 event done
+2025-04-04 06:24:11,001 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:24:12,459 - INFO - Transaction 90851690 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction is incomplete as system B details and reconciliation status are missing.',
+    'next_step': 'Obtain complete transaction details from system B and update reconciliation status'}
+2025-04-04 06:24:12,460 - INFO - 1 event done
+2025-04-04 06:24:13,745 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:24:14,713 - INFO - Transaction 67286592 classified with info: {'status': 'resolved',
+    'summary': 'Transaction has been reconciled after correcting the incorrect payment method.',
+    'next_step': None}
+2025-04-04 06:24:14,718 - INFO - 1 event done
+2025-04-04 06:24:16,001 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:24:16,911 - INFO - Transaction 15780875 classified with info: {'status': 'resolved',
+    'summary': 'Transaction resolved as the customer provided the correct payment reference.',
+    'next_step': None}
+2025-04-04 06:24:16,911 - INFO - 1 event done
+2025-04-04 06:24:18,133 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:24:19,870 - INFO - Transaction 88712053 classified with info: {'status': 'unresolved',
+    'summary': 'System B details are missing for transaction 88712053.',
+    'next_step': 'Obtain System B date, amount attribute 1, and amount attribute 2 to complete the transaction.'}
+2025-04-04 06:24:19,871 - INFO - 1 event done
+2025-04-04 06:24:21,155 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:24:23,037 - INFO - Transaction 35877233 classified with info: {'status': 'unresolved',
+    'summary': 'Missing system B details for transaction #35877233.',
+    'next_step': 'Update sys_b_date, sys_b_amount_attribute_1, and sys_b_amount_attribute_2.'}
+2025-04-04 06:24:23,038 - INFO - 1 event done
+2025-04-04 06:24:24,323 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:24:26,353 - INFO - Transaction 62671578 classified with info: {'status': 'unresolved',
+    'summary': 'Missing system B details for transaction 62671578.',
+    'next_step': 'Obtain sys_b_date, sys_b_amount_attribute_1, and sys_b_amount_attribute_2 to complete the transaction.'}
+2025-04-04 06:24:26,353 - INFO - 1 event done
+2025-04-04 06:24:27,637 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:24:29,117 - INFO - Transaction 50407375 classified with info: {'status': 'unresolved',
+    'summary': 'Payment transaction 50407375 has an error status and requires reprocessing.',
+    'next_step': 'Reprocess the transaction with the provided details.'}
+2025-04-04 06:24:29,118 - INFO - 1 event done
+2025-04-04 06:24:30,405 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:24:31,347 - INFO - Transaction 92497763 classified with info: {'status': 'resolved',
+    'summary': 'Transaction has been rectified and processed correctly despite initial error.',
+    'next_step': None}
+2025-04-04 06:24:31,347 - INFO - 1 event done
+2025-04-04 06:24:32,550 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:24:34,515 - INFO - Transaction 85311511 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction is incomplete as full details (sys_b_date, sys_b_amount_attribute_1, sys_b_amount_attribute_2) are missing.',
+    'next_step': 'Request the missing transaction details from the system B.'}
+2025-04-04 06:24:34,516 - INFO - 1 event done
+2025-04-04 06:24:35,799 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:24:36,679 - INFO - Transaction 84045829 classified with info: {'status': 'resolved',
+    'summary': 'Transaction has been reviewed and correct payment details found.',
+    'next_step': None}
+2025-04-04 06:24:36,679 - INFO - 1 event done
+2025-04-04 06:24:37,881 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:24:40,103 - INFO - Transaction 27182625 classified with info: {'status': 'unresolved',
+    'summary': 'Payment not found in the corresponding financial report, additional investigation required.',
+    'next_step': 'Investigate missing transaction details in the corresponding financial report: sys_b_date, sys_b_amount_attribute_1, sys_b_amount_attribute_2, and recon_status.'}
+2025-04-04 06:24:40,104 - INFO - 1 event done
+2025-04-04 06:24:41,388 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:24:42,841 - INFO - Transaction 41460616 classified with info: {'status': 'unresolved',
+    'summary': 'Payment amount is incorrect. Missing system B details.',
+    'next_step': 'Investigate missing system B date, amount attribute 1, and amount attribute 2'}
+2025-04-04 06:24:42,842 - INFO - 1 event done
+2025-04-04 06:24:44,046 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:24:44,880 - INFO - Transaction 69226073 classified with info: {'status': 'resolved',
+    'summary': 'Reconciliation completed, records aligned.',
+    'next_step': None}
+2025-04-04 06:24:44,881 - INFO - 1 event done
+2025-04-04 06:24:46,163 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:24:48,724 - INFO - Transaction 73484007 classified with info: {'status': 'unresolved',
+    'summary': 'Payment gateway did not return correct confirmation for transaction #73484007.',
+    'next_step': 'Contact payment gateway to obtain missing reconciliation details (sys_b_date, sys_b_amount_attribute_1, sys_b_amount_attribute_2, recon_status and recon_sub_status).'}
+2025-04-04 06:24:48,725 - INFO - 1 event done
+2025-04-04 06:24:49,926 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:24:52,138 - INFO - Transaction 67551234 classified with info: {'status': 'unresolved',
+    'summary': 'Reconciliation status not found. Missing sys_b_* attributes.',
+    'next_step': 'Obtain missing system B details (sys_b_date, sys_b_amount_attribute_1, sys_b_amount_attribute_2) to resolve the issue.'}
+2025-04-04 06:24:52,141 - INFO - 1 event done
+2025-04-04 06:24:53,433 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:24:54,347 - INFO - Transaction 40138173 classified with info: {'status': 'resolved',
+    'summary': 'Transaction has been reviewed and correct payment details found.',
+    'next_step': None}
+2025-04-04 06:24:54,348 - INFO - 1 event done
+2025-04-04 06:24:55,553 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:24:56,412 - INFO - Transaction 70850839 classified with info: {'status': 'resolved',
+    'summary': 'Reconciliation issue resolved as per comments.',
+    'next_step': None}
+2025-04-04 06:24:56,412 - INFO - 1 event done
+2025-04-04 06:24:57,695 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:24:58,961 - INFO - Transaction 28352958 classified with info: {'status': 'unresolved',
+    'summary': 'Payment reference does not match system record, require additional verification.',
+    'next_step': 'Request for additional transaction details to resolve discrepancy'}
+2025-04-04 06:24:58,961 - INFO - 1 event done
+2025-04-04 06:25:00,247 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:25:01,252 - INFO - Transaction 29050472 classified with info: {'status': 'resolved',
+    'summary': 'Transaction has been rectified despite initial error in account crediting.',
+    'next_step': None}
+2025-04-04 06:25:01,253 - INFO - 1 event done
+2025-04-04 06:25:02,472 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:25:03,788 - INFO - Transaction 75896254 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction requires manual confirmation as the recon_status is not found.',
+    'next_step': 'Manually confirm the transaction and update its recon_status'}
+2025-04-04 06:25:03,789 - INFO - 1 event done
+2025-04-04 06:25:04,993 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:25:07,564 - INFO - Transaction 94744868 classified with info: {'status': 'unresolved',
+    'summary': 'Reconciliation status not found for transaction 94744868. Missing sys_b_* attributes.',
+    'next_step': 'Obtain the missing system B details (sys_b_date, sys_b_amount_attribute_1, sys_b_amount_attribute_2) to complete the reconciliation.'}
+2025-04-04 06:25:07,565 - INFO - 1 event done
+2025-04-04 06:25:08,865 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:25:10,156 - INFO - Transaction 39566472 classified with info: {'status': 'unresolved',
+    'summary': 'Payment reference does not match system record, require additional verification.',
+    'next_step': 'Request for additional transaction details to resolve discrepancy'}
+2025-04-04 06:25:10,157 - INFO - 1 event done
+2025-04-04 06:25:11,441 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:25:13,657 - INFO - Transaction 43994020 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction not found in system, need to investigate missing attributes: sys_b_date, sys_b_amount_attribute_1, sys_b_amount_attribute_2 and recon_status.',
+    'next_step': 'Investigate missing attributes and reconcile the transaction.'}
+2025-04-04 06:25:13,657 - INFO - 1 event done
+2025-04-04 06:25:14,869 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:25:15,806 - INFO - Transaction 74823105 classified with info: {'status': 'resolved',
+    'summary': 'Reconciliation completed, records aligned across all platforms.',
+    'next_step': None}
+2025-04-04 06:25:15,807 - INFO - 1 event done
+2025-04-04 06:25:17,097 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:25:18,975 - INFO - Transaction 14854638 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction is missing system B details and reconciliation status.',
+    'next_step': 'Obtain system B date, amount attributes 1 & 2, and reconciliation status for transaction ID: 14854638'}
+2025-04-04 06:25:18,976 - INFO - 1 event done
+2025-04-04 06:25:20,258 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:25:22,765 - INFO - Transaction 78700075 classified with info: {'status': 'unresolved',
+    'summary': 'Reconciliation status not found for transaction 78700075.',
+    'next_step': 'Check the reconciliation status for transaction 78700075. Missing keys: sys_b_date, sys_b_amount_attribute_1, sys_b_amount_attribute_2.'}
+2025-04-04 06:25:22,766 - INFO - 1 event done
+2025-04-04 06:25:23,971 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:25:25,294 - INFO - Transaction 43520252 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction not complete due to missing system B details and customer payment reference.',
+    'next_step': 'Obtain customer payment reference and system B transaction details'}
+2025-04-04 06:25:25,294 - INFO - 1 event done
+2025-04-04 06:25:26,581 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:25:27,989 - INFO - Transaction 28457757 classified with info: {'status': 'unresolved',
+    'summary': 'Reconciliation status not found for transaction 28457757.',
+    'next_step': 'Obtain the reconciliation status from System B'}
+2025-04-04 06:25:27,990 - INFO - 1 event done
+2025-04-04 06:25:29,276 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:25:30,688 - INFO - Transaction 13739341 classified with info: {'status': 'unresolved',
+    'summary': 'Reconciliation status not found for transaction #13739341.',
+    'next_step': 'Obtain the reconciliation status for this transaction'}
+2025-04-04 06:25:30,689 - INFO - 1 event done
+2025-04-04 06:25:31,894 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:25:33,327 - INFO - Transaction 60548338 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction is incomplete as system B details and reconciliation status are missing.',
+    'next_step': 'Obtain complete transaction details from system B and update reconciliation status'}
+2025-04-04 06:25:33,327 - INFO - 1 event done
+2025-04-04 06:25:34,532 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:25:36,519 - INFO - Transaction 28291307 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction is incomplete as full details (sys_b_date, sys_b_amount_attribute_1, sys_b_amount_attribute_2) are missing.',
+    'next_step': 'Request the missing transaction details from the system B.'}
+2025-04-04 06:25:36,520 - INFO - 1 event done
+2025-04-04 06:25:37,804 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:25:39,336 - INFO - Transaction 43629865 classified with info: {'status': 'unresolved',
+    'summary': 'Payment transaction 43629865 has an error status and requires reprocessing.',
+    'next_step': 'Reprocess the transaction with the provided details.'}
+2025-04-04 06:25:39,337 - INFO - 1 event done
+2025-04-04 06:25:40,550 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:25:41,431 - INFO - Transaction 41686287 classified with info: {'status': 'resolved',
+    'summary': 'Transaction resolved as all accounts are now balanced.',
+    'next_step': None}
+2025-04-04 06:25:41,431 - INFO - 1 event done
+2025-04-04 06:25:42,714 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:25:43,865 - INFO - Transaction 78992025 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction ID is missing. Cannot proceed with reconciliation.',
+    'next_step': 'Provide the correct transaction ID'}
+2025-04-04 06:25:43,866 - INFO - 1 event done
+2025-04-04 06:25:45,069 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:25:47,395 - INFO - Transaction 74514252 classified with info: {'status': 'unresolved',
+    'summary': 'Reconciliation status not found for transaction 74514252. Missing sys_b_* attributes.',
+    'next_step': 'Obtain sys_b_date, sys_b_amount_attribute_1 and sys_b_amount_attribute_2 to complete the reconciliation.'}
+2025-04-04 06:25:47,396 - INFO - 1 event done
+2025-04-04 06:25:48,679 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-04 06:25:50,749 - INFO - Transaction 62447816 classified with info: {'status': 'unresolved',
+    'summary': 'Payment mismatch: Amount and reconciliation status are missing.',
+    'next_step': 'Obtain the missing keys: sys_b_date, sys_b_amount_attribute_1, sys_b_amount_attribute_2, and recon_status.'}
+2025-04-04 06:25:50,749 - INFO - 1 event done
+2025-04-04 06:25:52,031 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
