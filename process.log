@@ -1,196 +1,2066 @@
-2025-04-04 06:24:00,013 - INFO - Logging initialized.
-2025-04-04 06:24:00,044 - INFO - Ollama LLM initialized.
-2025-04-04 06:24:00,044 - INFO - Loading datasets.
-2025-04-04 06:24:00,412 - INFO - Datasets loaded successfully.
-2025-04-04 06:24:00,491 - INFO - Executing graph workflow.
-2025-04-04 06:24:04,232 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:24:06,455 - INFO - Transaction 44516715 classified with info: {'status': 'unresolved',
-    'summary': 'Payment not found in the corresponding financial report, additional investigation required.',
-    'next_step': 'Investigate missing system B details (sys_b_date, sys_b_amount_attribute_1, sys_b_amount_attribute_2) and reconciliation status for SysB.'}
-2025-04-04 06:24:06,456 - INFO - 1 event done
-2025-04-04 06:24:07,755 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:24:09,795 - INFO - Transaction 34286015 classified with info: {'status': 'unresolved',
-    'summary': 'Transaction not found in system B. Missing sys_b_date, sys_b_amount_attribute_1 and sys_b_amount_attribute_2.',
-    'next_step': 'Obtain the missing details from system B to reconcile the transaction.'}
-2025-04-04 06:24:09,795 - INFO - 1 event done
-2025-04-04 06:24:11,001 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:24:12,459 - INFO - Transaction 90851690 classified with info: {'status': 'unresolved',
-    'summary': 'Transaction is incomplete as system B details and reconciliation status are missing.',
-    'next_step': 'Obtain complete transaction details from system B and update reconciliation status'}
-2025-04-04 06:24:12,460 - INFO - 1 event done
-2025-04-04 06:24:13,745 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:24:14,713 - INFO - Transaction 67286592 classified with info: {'status': 'resolved',
-    'summary': 'Transaction has been reconciled after correcting the incorrect payment method.',
-    'next_step': None}
-2025-04-04 06:24:14,718 - INFO - 1 event done
-2025-04-04 06:24:16,001 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:24:16,911 - INFO - Transaction 15780875 classified with info: {'status': 'resolved',
-    'summary': 'Transaction resolved as the customer provided the correct payment reference.',
-    'next_step': None}
-2025-04-04 06:24:16,911 - INFO - 1 event done
-2025-04-04 06:24:18,133 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:24:19,870 - INFO - Transaction 88712053 classified with info: {'status': 'unresolved',
-    'summary': 'System B details are missing for transaction 88712053.',
-    'next_step': 'Obtain System B date, amount attribute 1, and amount attribute 2 to complete the transaction.'}
-2025-04-04 06:24:19,871 - INFO - 1 event done
-2025-04-04 06:24:21,155 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:24:23,037 - INFO - Transaction 35877233 classified with info: {'status': 'unresolved',
-    'summary': 'Missing system B details for transaction #35877233.',
-    'next_step': 'Update sys_b_date, sys_b_amount_attribute_1, and sys_b_amount_attribute_2.'}
-2025-04-04 06:24:23,038 - INFO - 1 event done
-2025-04-04 06:24:24,323 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:24:26,353 - INFO - Transaction 62671578 classified with info: {'status': 'unresolved',
-    'summary': 'Missing system B details for transaction 62671578.',
-    'next_step': 'Obtain sys_b_date, sys_b_amount_attribute_1, and sys_b_amount_attribute_2 to complete the transaction.'}
-2025-04-04 06:24:26,353 - INFO - 1 event done
-2025-04-04 06:24:27,637 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:24:29,117 - INFO - Transaction 50407375 classified with info: {'status': 'unresolved',
-    'summary': 'Payment transaction 50407375 has an error status and requires reprocessing.',
-    'next_step': 'Reprocess the transaction with the provided details.'}
-2025-04-04 06:24:29,118 - INFO - 1 event done
-2025-04-04 06:24:30,405 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:24:31,347 - INFO - Transaction 92497763 classified with info: {'status': 'resolved',
-    'summary': 'Transaction has been rectified and processed correctly despite initial error.',
-    'next_step': None}
-2025-04-04 06:24:31,347 - INFO - 1 event done
-2025-04-04 06:24:32,550 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:24:34,515 - INFO - Transaction 85311511 classified with info: {'status': 'unresolved',
-    'summary': 'Transaction is incomplete as full details (sys_b_date, sys_b_amount_attribute_1, sys_b_amount_attribute_2) are missing.',
-    'next_step': 'Request the missing transaction details from the system B.'}
-2025-04-04 06:24:34,516 - INFO - 1 event done
-2025-04-04 06:24:35,799 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:24:36,679 - INFO - Transaction 84045829 classified with info: {'status': 'resolved',
-    'summary': 'Transaction has been reviewed and correct payment details found.',
-    'next_step': None}
-2025-04-04 06:24:36,679 - INFO - 1 event done
-2025-04-04 06:24:37,881 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:24:40,103 - INFO - Transaction 27182625 classified with info: {'status': 'unresolved',
-    'summary': 'Payment not found in the corresponding financial report, additional investigation required.',
-    'next_step': 'Investigate missing transaction details in the corresponding financial report: sys_b_date, sys_b_amount_attribute_1, sys_b_amount_attribute_2, and recon_status.'}
-2025-04-04 06:24:40,104 - INFO - 1 event done
-2025-04-04 06:24:41,388 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:24:42,841 - INFO - Transaction 41460616 classified with info: {'status': 'unresolved',
-    'summary': 'Payment amount is incorrect. Missing system B details.',
-    'next_step': 'Investigate missing system B date, amount attribute 1, and amount attribute 2'}
-2025-04-04 06:24:42,842 - INFO - 1 event done
-2025-04-04 06:24:44,046 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:24:44,880 - INFO - Transaction 69226073 classified with info: {'status': 'resolved',
-    'summary': 'Reconciliation completed, records aligned.',
-    'next_step': None}
-2025-04-04 06:24:44,881 - INFO - 1 event done
-2025-04-04 06:24:46,163 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:24:48,724 - INFO - Transaction 73484007 classified with info: {'status': 'unresolved',
-    'summary': 'Payment gateway did not return correct confirmation for transaction #73484007.',
-    'next_step': 'Contact payment gateway to obtain missing reconciliation details (sys_b_date, sys_b_amount_attribute_1, sys_b_amount_attribute_2, recon_status and recon_sub_status).'}
-2025-04-04 06:24:48,725 - INFO - 1 event done
-2025-04-04 06:24:49,926 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:24:52,138 - INFO - Transaction 67551234 classified with info: {'status': 'unresolved',
-    'summary': 'Reconciliation status not found. Missing sys_b_* attributes.',
-    'next_step': 'Obtain missing system B details (sys_b_date, sys_b_amount_attribute_1, sys_b_amount_attribute_2) to resolve the issue.'}
-2025-04-04 06:24:52,141 - INFO - 1 event done
-2025-04-04 06:24:53,433 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:24:54,347 - INFO - Transaction 40138173 classified with info: {'status': 'resolved',
-    'summary': 'Transaction has been reviewed and correct payment details found.',
-    'next_step': None}
-2025-04-04 06:24:54,348 - INFO - 1 event done
-2025-04-04 06:24:55,553 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:24:56,412 - INFO - Transaction 70850839 classified with info: {'status': 'resolved',
-    'summary': 'Reconciliation issue resolved as per comments.',
-    'next_step': None}
-2025-04-04 06:24:56,412 - INFO - 1 event done
-2025-04-04 06:24:57,695 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:24:58,961 - INFO - Transaction 28352958 classified with info: {'status': 'unresolved',
-    'summary': 'Payment reference does not match system record, require additional verification.',
-    'next_step': 'Request for additional transaction details to resolve discrepancy'}
-2025-04-04 06:24:58,961 - INFO - 1 event done
-2025-04-04 06:25:00,247 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:25:01,252 - INFO - Transaction 29050472 classified with info: {'status': 'resolved',
-    'summary': 'Transaction has been rectified despite initial error in account crediting.',
-    'next_step': None}
-2025-04-04 06:25:01,253 - INFO - 1 event done
-2025-04-04 06:25:02,472 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:25:03,788 - INFO - Transaction 75896254 classified with info: {'status': 'unresolved',
-    'summary': 'Transaction requires manual confirmation as the recon_status is not found.',
-    'next_step': 'Manually confirm the transaction and update its recon_status'}
-2025-04-04 06:25:03,789 - INFO - 1 event done
-2025-04-04 06:25:04,993 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:25:07,564 - INFO - Transaction 94744868 classified with info: {'status': 'unresolved',
-    'summary': 'Reconciliation status not found for transaction 94744868. Missing sys_b_* attributes.',
-    'next_step': 'Obtain the missing system B details (sys_b_date, sys_b_amount_attribute_1, sys_b_amount_attribute_2) to complete the reconciliation.'}
-2025-04-04 06:25:07,565 - INFO - 1 event done
-2025-04-04 06:25:08,865 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:25:10,156 - INFO - Transaction 39566472 classified with info: {'status': 'unresolved',
-    'summary': 'Payment reference does not match system record, require additional verification.',
-    'next_step': 'Request for additional transaction details to resolve discrepancy'}
-2025-04-04 06:25:10,157 - INFO - 1 event done
-2025-04-04 06:25:11,441 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:25:13,657 - INFO - Transaction 43994020 classified with info: {'status': 'unresolved',
-    'summary': 'Transaction not found in system, need to investigate missing attributes: sys_b_date, sys_b_amount_attribute_1, sys_b_amount_attribute_2 and recon_status.',
-    'next_step': 'Investigate missing attributes and reconcile the transaction.'}
-2025-04-04 06:25:13,657 - INFO - 1 event done
-2025-04-04 06:25:14,869 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:25:15,806 - INFO - Transaction 74823105 classified with info: {'status': 'resolved',
-    'summary': 'Reconciliation completed, records aligned across all platforms.',
-    'next_step': None}
-2025-04-04 06:25:15,807 - INFO - 1 event done
-2025-04-04 06:25:17,097 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:25:18,975 - INFO - Transaction 14854638 classified with info: {'status': 'unresolved',
-    'summary': 'Transaction is missing system B details and reconciliation status.',
-    'next_step': 'Obtain system B date, amount attributes 1 & 2, and reconciliation status for transaction ID: 14854638'}
-2025-04-04 06:25:18,976 - INFO - 1 event done
-2025-04-04 06:25:20,258 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:25:22,765 - INFO - Transaction 78700075 classified with info: {'status': 'unresolved',
-    'summary': 'Reconciliation status not found for transaction 78700075.',
-    'next_step': 'Check the reconciliation status for transaction 78700075. Missing keys: sys_b_date, sys_b_amount_attribute_1, sys_b_amount_attribute_2.'}
-2025-04-04 06:25:22,766 - INFO - 1 event done
-2025-04-04 06:25:23,971 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:25:25,294 - INFO - Transaction 43520252 classified with info: {'status': 'unresolved',
-    'summary': 'Transaction not complete due to missing system B details and customer payment reference.',
-    'next_step': 'Obtain customer payment reference and system B transaction details'}
-2025-04-04 06:25:25,294 - INFO - 1 event done
-2025-04-04 06:25:26,581 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:25:27,989 - INFO - Transaction 28457757 classified with info: {'status': 'unresolved',
-    'summary': 'Reconciliation status not found for transaction 28457757.',
-    'next_step': 'Obtain the reconciliation status from System B'}
-2025-04-04 06:25:27,990 - INFO - 1 event done
-2025-04-04 06:25:29,276 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:25:30,688 - INFO - Transaction 13739341 classified with info: {'status': 'unresolved',
-    'summary': 'Reconciliation status not found for transaction #13739341.',
-    'next_step': 'Obtain the reconciliation status for this transaction'}
-2025-04-04 06:25:30,689 - INFO - 1 event done
-2025-04-04 06:25:31,894 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:25:33,327 - INFO - Transaction 60548338 classified with info: {'status': 'unresolved',
-    'summary': 'Transaction is incomplete as system B details and reconciliation status are missing.',
-    'next_step': 'Obtain complete transaction details from system B and update reconciliation status'}
-2025-04-04 06:25:33,327 - INFO - 1 event done
-2025-04-04 06:25:34,532 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:25:36,519 - INFO - Transaction 28291307 classified with info: {'status': 'unresolved',
-    'summary': 'Transaction is incomplete as full details (sys_b_date, sys_b_amount_attribute_1, sys_b_amount_attribute_2) are missing.',
-    'next_step': 'Request the missing transaction details from the system B.'}
-2025-04-04 06:25:36,520 - INFO - 1 event done
-2025-04-04 06:25:37,804 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:25:39,336 - INFO - Transaction 43629865 classified with info: {'status': 'unresolved',
-    'summary': 'Payment transaction 43629865 has an error status and requires reprocessing.',
-    'next_step': 'Reprocess the transaction with the provided details.'}
-2025-04-04 06:25:39,337 - INFO - 1 event done
-2025-04-04 06:25:40,550 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:25:41,431 - INFO - Transaction 41686287 classified with info: {'status': 'resolved',
-    'summary': 'Transaction resolved as all accounts are now balanced.',
-    'next_step': None}
-2025-04-04 06:25:41,431 - INFO - 1 event done
-2025-04-04 06:25:42,714 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:25:43,865 - INFO - Transaction 78992025 classified with info: {'status': 'unresolved',
-    'summary': 'Transaction ID is missing. Cannot proceed with reconciliation.',
-    'next_step': 'Provide the correct transaction ID'}
-2025-04-04 06:25:43,866 - INFO - 1 event done
-2025-04-04 06:25:45,069 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:25:47,395 - INFO - Transaction 74514252 classified with info: {'status': 'unresolved',
-    'summary': 'Reconciliation status not found for transaction 74514252. Missing sys_b_* attributes.',
-    'next_step': 'Obtain sys_b_date, sys_b_amount_attribute_1 and sys_b_amount_attribute_2 to complete the reconciliation.'}
-2025-04-04 06:25:47,396 - INFO - 1 event done
-2025-04-04 06:25:48,679 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-04-04 06:25:50,749 - INFO - Transaction 62447816 classified with info: {'status': 'unresolved',
-    'summary': 'Payment mismatch: Amount and reconciliation status are missing.',
-    'next_step': 'Obtain the missing keys: sys_b_date, sys_b_amount_attribute_1, sys_b_amount_attribute_2, and recon_status.'}
-2025-04-04 06:25:50,749 - INFO - 1 event done
-2025-04-04 06:25:52,031 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:32:23,046 - INFO - Logging initialized.
+2025-04-06 04:32:23,077 - INFO - Ollama LLM initialized.
+2025-04-06 04:32:23,077 - INFO - Loading datasets.
+2025-04-06 04:32:24,260 - INFO - Datasets loaded successfully.
+2025-04-06 04:32:24,573 - INFO - Executing graph workflow.
+2025-04-06 04:32:29,773 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:32:31,133 - INFO - Transaction 45207227 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:32:31,424 - INFO - 1 event done
+2025-04-06 04:32:32,814 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:32:34,266 - INFO - Transaction 88062364 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match. Amount attributes for both sides are different.',
+    'next_step': 'Check the transaction amounts and update the relevant keys.'}
+2025-04-06 04:32:34,563 - INFO - 1 event done
+2025-04-06 04:32:35,941 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:32:37,363 - INFO - Transaction 25269529 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:32:37,633 - INFO - 1 event done
+2025-04-06 04:32:39,010 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:32:40,854 - INFO - Transaction 15811457 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:32:41,114 - INFO - 1 event done
+2025-04-06 04:32:42,495 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:32:44,232 - INFO - Transaction 42287500 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:32:44,508 - INFO - 1 event done
+2025-04-06 04:32:45,891 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:32:47,352 - INFO - Transaction 97114425 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:32:47,623 - INFO - 1 event done
+2025-04-06 04:32:48,999 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:32:51,272 - INFO - Transaction 99269280 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match. Check sys_a_amount_attribute_1 and sys_b_amount_attribute_1.',
+    'next_step': 'Compare the amounts in sys_a_amount_attribute_1 and sys_b_amount_attribute_1 to resolve the discrepancy.'}
+2025-04-06 04:32:51,532 - INFO - 1 event done
+2025-04-06 04:32:52,913 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:32:55,429 - INFO - Transaction 71563212 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the amounts in sys_a_amount_attribute_1, sys_a_amount_attribute_2, sys_b_amount_attribute_1, and sys_b_amount_attribute_2 for reconciliation.'}
+2025-04-06 04:32:55,735 - INFO - 1 event done
+2025-04-06 04:32:57,116 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:32:58,350 - INFO - Transaction 95068012 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:32:58,643 - INFO - 1 event done
+2025-04-06 04:33:00,031 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:33:01,410 - INFO - Transaction 84414301 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:33:01,688 - INFO - 1 event done
+2025-04-06 04:33:03,068 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:33:04,520 - INFO - Transaction 36331284 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:33:04,807 - INFO - 1 event done
+2025-04-06 04:33:06,187 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:33:07,549 - INFO - Transaction 52567360 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies and update the relevant fields.'}
+2025-04-06 04:33:07,809 - INFO - 1 event done
+2025-04-06 04:33:09,194 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:33:10,354 - INFO - Transaction 88174880 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies.'}
+2025-04-06 04:33:10,636 - INFO - 1 event done
+2025-04-06 04:33:12,018 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:33:13,381 - INFO - Transaction 14065170 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:33:13,651 - INFO - 1 event done
+2025-04-06 04:33:15,031 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:33:16,441 - INFO - Transaction 64346018 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:33:16,719 - INFO - 1 event done
+2025-04-06 04:33:18,097 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:33:19,499 - INFO - Transaction 44811358 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:33:19,792 - INFO - 1 event done
+2025-04-06 04:33:21,175 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:33:22,564 - INFO - Transaction 40748353 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:33:22,845 - INFO - 1 event done
+2025-04-06 04:33:24,231 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:33:25,517 - INFO - Transaction 15688758 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:33:25,823 - INFO - 1 event done
+2025-04-06 04:33:27,212 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:33:28,621 - INFO - Transaction 61902068 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:33:28,900 - INFO - 1 event done
+2025-04-06 04:33:30,279 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:33:31,444 - INFO - Transaction 61065545 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies.'}
+2025-04-06 04:33:31,726 - INFO - 1 event done
+2025-04-06 04:33:33,109 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:33:34,497 - INFO - Transaction 23234558 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:33:34,759 - INFO - 1 event done
+2025-04-06 04:33:36,145 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:33:37,418 - INFO - Transaction 80506914 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:33:37,720 - INFO - 1 event done
+2025-04-06 04:33:39,098 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:33:40,370 - INFO - Transaction 82534302 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of transaction amounts for both systems.'}
+2025-04-06 04:33:40,633 - INFO - 1 event done
+2025-04-06 04:33:42,011 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:33:43,172 - INFO - Transaction 33013143 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the amounts in both systems and reconcile.'}
+2025-04-06 04:33:43,432 - INFO - 1 event done
+2025-04-06 04:33:44,828 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:33:46,131 - INFO - Transaction 59981243 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:33:46,392 - INFO - 1 event done
+2025-04-06 04:33:47,768 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:33:49,126 - INFO - Transaction 55344848 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:33:49,416 - INFO - 1 event done
+2025-04-06 04:33:50,799 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:33:52,163 - INFO - Transaction 25847048 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:33:52,444 - INFO - 1 event done
+2025-04-06 04:33:53,825 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:33:55,073 - INFO - Transaction 12067519 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:33:55,337 - INFO - 1 event done
+2025-04-06 04:33:56,737 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:33:58,758 - INFO - Transaction 32350970 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual amount attributes for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) to resolve the discrepancy.'}
+2025-04-06 04:33:59,023 - INFO - 1 event done
+2025-04-06 04:34:00,407 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:34:01,690 - INFO - Transaction 53608546 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both systems and ensure they are correct.'}
+2025-04-06 04:34:01,951 - INFO - 1 event done
+2025-04-06 04:34:03,329 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:34:04,749 - INFO - Transaction 60301988 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:34:05,014 - INFO - 1 event done
+2025-04-06 04:34:06,398 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:34:07,618 - INFO - Transaction 40186138 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:34:07,898 - INFO - 1 event done
+2025-04-06 04:34:09,277 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:34:10,636 - INFO - Transaction 62615875 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:34:10,900 - INFO - 1 event done
+2025-04-06 04:34:12,278 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:34:14,414 - INFO - Transaction 76780444 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual amount attributes for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) to resolve the discrepancy.'}
+2025-04-06 04:34:14,707 - INFO - 1 event done
+2025-04-06 04:34:16,085 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:34:17,443 - INFO - Transaction 14274919 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:34:17,710 - INFO - 1 event done
+2025-04-06 04:34:19,091 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:34:20,249 - INFO - Transaction 58690415 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the amounts in both systems and reconcile.'}
+2025-04-06 04:34:20,513 - INFO - 1 event done
+2025-04-06 04:34:21,894 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:34:23,164 - INFO - Transaction 48368773 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the corresponding amounts in both systems and resolve the discrepancy.'}
+2025-04-06 04:34:23,434 - INFO - 1 event done
+2025-04-06 04:34:24,817 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:34:26,124 - INFO - Transaction 84176879 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:34:26,387 - INFO - 1 event done
+2025-04-06 04:34:27,788 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:34:29,193 - INFO - Transaction 14631248 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction not matched due to discrepancy in amount.',
+    'next_step': 'Check the amounts for both transactions and reconcile if possible.'}
+2025-04-06 04:34:29,486 - INFO - 1 event done
+2025-04-06 04:34:30,865 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:34:32,226 - INFO - Transaction 46911405 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:34:32,491 - INFO - 1 event done
+2025-04-06 04:34:33,868 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:34:35,201 - INFO - Transaction 98755180 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:34:35,465 - INFO - 1 event done
+2025-04-06 04:34:36,844 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:34:38,121 - INFO - Transaction 89039366 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both systems and ensure they are correct.'}
+2025-04-06 04:34:38,387 - INFO - 1 event done
+2025-04-06 04:34:39,766 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:34:41,537 - INFO - Transaction 97187627 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attribute amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:34:41,804 - INFO - 1 event done
+2025-04-06 04:34:43,183 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:34:44,543 - INFO - Transaction 97702176 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:34:44,810 - INFO - 1 event done
+2025-04-06 04:34:46,189 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:34:47,497 - INFO - Transaction 66312379 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of system A and B amounts for discrepancies.'}
+2025-04-06 04:34:47,768 - INFO - 1 event done
+2025-04-06 04:34:49,145 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:34:50,560 - INFO - Transaction 33443413 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:34:50,845 - INFO - 1 event done
+2025-04-06 04:34:52,235 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:34:53,676 - INFO - Transaction 66800006 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:34:53,972 - INFO - 1 event done
+2025-04-06 04:34:55,352 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:34:56,600 - INFO - Transaction 21873436 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:34:56,866 - INFO - 1 event done
+2025-04-06 04:34:58,262 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:35:00,114 - INFO - Transaction 26110779 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:35:00,382 - INFO - 1 event done
+2025-04-06 04:35:01,754 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:35:02,996 - INFO - Transaction 50830121 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both systems and ensure they match.'}
+2025-04-06 04:35:03,262 - INFO - 1 event done
+2025-04-06 04:35:04,642 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:35:06,638 - INFO - Transaction 34927284 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual amount attributes for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) to resolve the discrepancy.'}
+2025-04-06 04:35:06,907 - INFO - 1 event done
+2025-04-06 04:35:08,285 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:35:09,643 - INFO - Transaction 60736532 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:35:09,911 - INFO - 1 event done
+2025-04-06 04:35:11,290 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:35:12,591 - INFO - Transaction 41057048 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:35:12,857 - INFO - 1 event done
+2025-04-06 04:35:14,254 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:35:15,438 - INFO - Transaction 91901312 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction not matched due to discrepancy in amount.',
+    'next_step': 'Check the corresponding transaction for correct amount.'}
+2025-04-06 04:35:15,704 - INFO - 1 event done
+2025-04-06 04:35:17,083 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:35:18,452 - INFO - Transaction 91312573 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:35:18,718 - INFO - 1 event done
+2025-04-06 04:35:20,114 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:35:21,446 - INFO - Transaction 41450251 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:35:21,714 - INFO - 1 event done
+2025-04-06 04:35:23,092 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:35:24,422 - INFO - Transaction 39431140 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:35:24,690 - INFO - 1 event done
+2025-04-06 04:35:26,090 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:35:28,188 - INFO - Transaction 66848684 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual amount attributes for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) to resolve the discrepancy.'}
+2025-04-06 04:35:28,458 - INFO - 1 event done
+2025-04-06 04:35:29,853 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:35:31,216 - INFO - Transaction 48472712 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:35:31,485 - INFO - 1 event done
+2025-04-06 04:35:32,863 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:35:34,194 - INFO - Transaction 18813134 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they match.'}
+2025-04-06 04:35:34,462 - INFO - 1 event done
+2025-04-06 04:35:35,840 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:35:37,277 - INFO - Transaction 70281914 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:35:37,547 - INFO - 1 event done
+2025-04-06 04:35:38,936 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:35:40,352 - INFO - Transaction 73708391 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:35:40,621 - INFO - 1 event done
+2025-04-06 04:35:41,998 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:35:43,329 - INFO - Transaction 53414597 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:35:43,599 - INFO - 1 event done
+2025-04-06 04:35:44,977 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:35:46,337 - INFO - Transaction 82284574 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:35:46,607 - INFO - 1 event done
+2025-04-06 04:35:47,984 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:35:49,286 - INFO - Transaction 85870976 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:35:49,557 - INFO - 1 event done
+2025-04-06 04:35:50,936 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:35:52,603 - INFO - Transaction 57525334 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match. Check sys_a_amount_attribute_1 and sys_b_amount_attribute_1.',
+    'next_step': 'Review the transaction amounts.'}
+2025-04-06 04:35:52,902 - INFO - 1 event done
+2025-04-06 04:35:54,281 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:35:55,610 - INFO - Transaction 27541502 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:35:55,898 - INFO - 1 event done
+2025-04-06 04:35:57,296 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:35:58,741 - INFO - Transaction 34998730 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:35:59,041 - INFO - 1 event done
+2025-04-06 04:36:00,421 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:36:01,780 - INFO - Transaction 83722059 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:36:02,051 - INFO - 1 event done
+2025-04-06 04:36:03,429 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:36:05,311 - INFO - Transaction 30934799 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction amount for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1)'}
+2025-04-06 04:36:05,584 - INFO - 1 event done
+2025-04-06 04:36:06,961 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:36:08,813 - INFO - Transaction 81681614 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:36:09,084 - INFO - 1 event done
+2025-04-06 04:36:10,464 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:36:12,228 - INFO - Transaction 77239540 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attribute amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:36:12,501 - INFO - 1 event done
+2025-04-06 04:36:13,878 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:36:15,206 - INFO - Transaction 47719932 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:36:15,478 - INFO - 1 event done
+2025-04-06 04:36:16,856 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:36:18,187 - INFO - Transaction 64380660 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:36:18,475 - INFO - 1 event done
+2025-04-06 04:36:19,865 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:36:21,600 - INFO - Transaction 69145702 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:36:21,872 - INFO - 1 event done
+2025-04-06 04:36:23,254 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:36:25,135 - INFO - Transaction 76301579 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction amount for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1)'}
+2025-04-06 04:36:25,428 - INFO - 1 event done
+2025-04-06 04:36:26,807 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:36:28,168 - INFO - Transaction 29123190 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:36:28,440 - INFO - 1 event done
+2025-04-06 04:36:29,818 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:36:31,120 - INFO - Transaction 91902976 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:36:31,410 - INFO - 1 event done
+2025-04-06 04:36:32,791 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:36:35,141 - INFO - Transaction 20028183 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the amounts in sys_a_amount_attribute_1, sys_a_amount_attribute_2, sys_b_amount_attribute_1, and sys_b_amount_attribute_2 for correctness.'}
+2025-04-06 04:36:35,415 - INFO - 1 event done
+2025-04-06 04:36:36,794 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:36:38,040 - INFO - Transaction 41166050 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:36:38,313 - INFO - 1 event done
+2025-04-06 04:36:39,689 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:36:41,020 - INFO - Transaction 85133412 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:36:41,296 - INFO - 1 event done
+2025-04-06 04:36:42,674 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:36:44,235 - INFO - Transaction 15729438 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match. Check sys_a_amount_attribute_1 and sys_b_amount_attribute_1.',
+    'next_step': 'Review the transaction amounts.'}
+2025-04-06 04:36:44,510 - INFO - 1 event done
+2025-04-06 04:36:45,893 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:36:47,318 - INFO - Transaction 66259803 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:36:47,619 - INFO - 1 event done
+2025-04-06 04:36:48,997 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:36:50,241 - INFO - Transaction 72054933 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:36:50,515 - INFO - 1 event done
+2025-04-06 04:36:51,892 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:36:53,253 - INFO - Transaction 90665407 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:36:53,526 - INFO - 1 event done
+2025-04-06 04:36:54,903 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:36:56,262 - INFO - Transaction 79745703 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:36:56,536 - INFO - 1 event done
+2025-04-06 04:36:57,913 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:36:59,215 - INFO - Transaction 19728560 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:36:59,488 - INFO - 1 event done
+2025-04-06 04:37:00,868 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:37:02,300 - INFO - Transaction 10795200 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:37:02,604 - INFO - 1 event done
+2025-04-06 04:37:03,997 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:37:05,333 - INFO - Transaction 68716821 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies and reconcile accordingly.'}
+2025-04-06 04:37:05,608 - INFO - 1 event done
+2025-04-06 04:37:07,007 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:37:08,778 - INFO - Transaction 10079165 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attribute amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:37:09,054 - INFO - 1 event done
+2025-04-06 04:37:10,456 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:37:11,794 - INFO - Transaction 93424771 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:37:12,072 - INFO - 1 event done
+2025-04-06 04:37:13,472 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:37:14,718 - INFO - Transaction 99178580 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:37:14,995 - INFO - 1 event done
+2025-04-06 04:37:16,392 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:37:17,755 - INFO - Transaction 94108699 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:37:18,030 - INFO - 1 event done
+2025-04-06 04:37:19,426 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:37:20,758 - INFO - Transaction 74277800 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:37:21,034 - INFO - 1 event done
+2025-04-06 04:37:22,447 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:37:23,685 - INFO - Transaction 73734501 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies.'}
+2025-04-06 04:37:23,986 - INFO - 1 event done
+2025-04-06 04:37:25,384 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:37:26,720 - INFO - Transaction 78600490 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:37:27,012 - INFO - 1 event done
+2025-04-06 04:37:28,406 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:37:30,264 - INFO - Transaction 19258540 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the amounts in both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for reconciliation.'}
+2025-04-06 04:37:30,540 - INFO - 1 event done
+2025-04-06 04:37:31,932 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:37:33,674 - INFO - Transaction 38734089 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:37:33,953 - INFO - 1 event done
+2025-04-06 04:37:35,373 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:37:36,740 - INFO - Transaction 98490953 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:37:37,019 - INFO - 1 event done
+2025-04-06 04:37:38,474 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:37:39,709 - INFO - Transaction 20055678 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:37:40,005 - INFO - 1 event done
+2025-04-06 04:37:41,507 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:37:42,869 - INFO - Transaction 94972553 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:37:43,145 - INFO - 1 event done
+2025-04-06 04:37:44,676 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:37:46,485 - INFO - Transaction 36636368 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attribute amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:37:46,762 - INFO - 1 event done
+2025-04-06 04:37:48,302 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:37:49,642 - INFO - Transaction 11282908 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:37:49,920 - INFO - 1 event done
+2025-04-06 04:37:51,495 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:37:52,740 - INFO - Transaction 90545664 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:37:53,017 - INFO - 1 event done
+2025-04-06 04:37:54,564 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:37:55,928 - INFO - Transaction 56921037 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:37:56,245 - INFO - 1 event done
+2025-04-06 04:37:57,788 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:37:59,679 - INFO - Transaction 61143057 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:37:59,961 - INFO - 1 event done
+2025-04-06 04:38:01,460 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:38:02,890 - INFO - Transaction 29552077 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:38:03,168 - INFO - 1 event done
+2025-04-06 04:38:04,701 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:38:06,047 - INFO - Transaction 31756023 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:38:06,325 - INFO - 1 event done
+2025-04-06 04:38:07,907 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:38:09,264 - INFO - Transaction 67821173 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:38:09,542 - INFO - 1 event done
+2025-04-06 04:38:11,108 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:38:12,554 - INFO - Transaction 36776071 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:38:12,862 - INFO - 1 event done
+2025-04-06 04:38:14,356 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:38:15,623 - INFO - Transaction 41765698 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:38:15,900 - INFO - 1 event done
+2025-04-06 04:38:17,479 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:38:18,743 - INFO - Transaction 45204982 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:38:19,021 - INFO - 1 event done
+2025-04-06 04:38:20,574 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:38:21,924 - INFO - Transaction 30400859 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:38:22,204 - INFO - 1 event done
+2025-04-06 04:38:23,717 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:38:24,945 - INFO - Transaction 25338703 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:38:25,224 - INFO - 1 event done
+2025-04-06 04:38:26,737 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:38:28,126 - INFO - Transaction 44428345 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:38:28,406 - INFO - 1 event done
+2025-04-06 04:38:29,925 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:38:31,242 - INFO - Transaction 95601384 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:38:31,521 - INFO - 1 event done
+2025-04-06 04:38:33,026 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:38:34,339 - INFO - Transaction 55079713 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:38:34,619 - INFO - 1 event done
+2025-04-06 04:38:36,124 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:38:37,558 - INFO - Transaction 47050335 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:38:37,846 - INFO - 1 event done
+2025-04-06 04:38:39,304 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:38:40,645 - INFO - Transaction 82648289 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:38:40,926 - INFO - 1 event done
+2025-04-06 04:38:42,423 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:38:43,687 - INFO - Transaction 30143208 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:38:43,967 - INFO - 1 event done
+2025-04-06 04:38:45,440 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:38:46,756 - INFO - Transaction 57227194 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction amount for both systems.'}
+2025-04-06 04:38:47,038 - INFO - 1 event done
+2025-04-06 04:38:48,526 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:38:49,866 - INFO - Transaction 14519139 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:38:50,147 - INFO - 1 event done
+2025-04-06 04:38:51,629 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:38:52,942 - INFO - Transaction 92835208 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:38:53,223 - INFO - 1 event done
+2025-04-06 04:38:54,710 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:38:56,085 - INFO - Transaction 82759808 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:38:56,366 - INFO - 1 event done
+2025-04-06 04:38:57,814 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:38:59,058 - INFO - Transaction 78128572 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies.'}
+2025-04-06 04:38:59,366 - INFO - 1 event done
+2025-04-06 04:39:00,811 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:39:02,175 - INFO - Transaction 39803729 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the transaction amounts in both systems and resolve the discrepancy.'}
+2025-04-06 04:39:02,487 - INFO - 1 event done
+2025-04-06 04:39:03,911 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:39:05,238 - INFO - Transaction 99273729 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:39:05,521 - INFO - 1 event done
+2025-04-06 04:39:06,951 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:39:08,712 - INFO - Transaction 14443135 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attribute amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:39:08,994 - INFO - 1 event done
+2025-04-06 04:39:10,419 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:39:11,656 - INFO - Transaction 49521860 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both systems and ensure they match.'}
+2025-04-06 04:39:11,939 - INFO - 1 event done
+2025-04-06 04:39:13,365 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:39:14,602 - INFO - Transaction 13655194 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:39:14,884 - INFO - 1 event done
+2025-04-06 04:39:16,308 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:39:17,632 - INFO - Transaction 98155903 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:39:17,930 - INFO - 1 event done
+2025-04-06 04:39:19,341 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:39:20,690 - INFO - Transaction 88412398 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:39:20,973 - INFO - 1 event done
+2025-04-06 04:39:22,373 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:39:23,725 - INFO - Transaction 44597655 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:39:24,007 - INFO - 1 event done
+2025-04-06 04:39:25,410 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:39:27,226 - INFO - Transaction 31953439 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attribute amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:39:27,511 - INFO - 1 event done
+2025-04-06 04:39:28,921 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:39:30,217 - INFO - Transaction 10219162 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:39:30,500 - INFO - 1 event done
+2025-04-06 04:39:31,899 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:39:33,260 - INFO - Transaction 33397730 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:39:33,542 - INFO - 1 event done
+2025-04-06 04:39:34,931 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:39:36,786 - INFO - Transaction 80829038 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual amount attributes (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:39:37,066 - INFO - 1 event done
+2025-04-06 04:39:38,466 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:39:39,831 - INFO - Transaction 35277278 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:39:40,112 - INFO - 1 event done
+2025-04-06 04:39:41,506 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:39:43,254 - INFO - Transaction 57702275 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:39:43,535 - INFO - 1 event done
+2025-04-06 04:39:44,929 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:39:46,695 - INFO - Transaction 35510999 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attribute amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:39:46,977 - INFO - 1 event done
+2025-04-06 04:39:48,370 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:39:49,529 - INFO - Transaction 27049142 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the amounts in both systems and reconcile.'}
+2025-04-06 04:39:49,810 - INFO - 1 event done
+2025-04-06 04:39:51,203 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:39:52,502 - INFO - Transaction 57458859 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:39:52,785 - INFO - 1 event done
+2025-04-06 04:39:54,177 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:39:56,176 - INFO - Transaction 30454894 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual amount attributes for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) to resolve the discrepancy.'}
+2025-04-06 04:39:56,459 - INFO - 1 event done
+2025-04-06 04:39:57,852 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:39:59,536 - INFO - Transaction 40709064 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match. Check sys_a_amount_attribute_1 and sys_b_amount_attribute_1.',
+    'next_step': 'Review the transaction amounts.'}
+2025-04-06 04:39:59,846 - INFO - 1 event done
+2025-04-06 04:40:01,240 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:40:03,123 - INFO - Transaction 92254246 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attribute amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:40:03,404 - INFO - 1 event done
+2025-04-06 04:40:04,804 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:40:06,165 - INFO - Transaction 97543112 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:40:06,447 - INFO - 1 event done
+2025-04-06 04:40:07,831 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:40:09,278 - INFO - Transaction 82347334 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:40:09,588 - INFO - 1 event done
+2025-04-06 04:40:10,968 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:40:12,428 - INFO - Transaction 88862173 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:40:12,720 - INFO - 1 event done
+2025-04-06 04:40:14,101 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:40:15,427 - INFO - Transaction 70308756 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:40:15,712 - INFO - 1 event done
+2025-04-06 04:40:17,090 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:40:18,446 - INFO - Transaction 61752930 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:40:18,746 - INFO - 1 event done
+2025-04-06 04:40:20,124 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:40:21,886 - INFO - Transaction 80601106 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attribute amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:40:22,167 - INFO - 1 event done
+2025-04-06 04:40:23,543 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:40:24,903 - INFO - Transaction 35414966 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:40:25,206 - INFO - 1 event done
+2025-04-06 04:40:26,586 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:40:28,037 - INFO - Transaction 86673445 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:40:28,320 - INFO - 1 event done
+2025-04-06 04:40:29,720 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:40:31,482 - INFO - Transaction 72330108 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attribute amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:40:31,766 - INFO - 1 event done
+2025-04-06 04:40:33,145 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:40:34,848 - INFO - Transaction 71241819 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual system amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for accuracy.'}
+2025-04-06 04:40:35,134 - INFO - 1 event done
+2025-04-06 04:40:36,506 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:40:37,687 - INFO - Transaction 94500020 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Verify the transaction amounts in both systems and update accordingly.'}
+2025-04-06 04:40:37,986 - INFO - 1 event done
+2025-04-06 04:40:39,367 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:40:40,722 - INFO - Transaction 36769531 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:40:41,008 - INFO - 1 event done
+2025-04-06 04:40:42,386 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:40:43,718 - INFO - Transaction 97637092 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:40:44,004 - INFO - 1 event done
+2025-04-06 04:40:45,381 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:40:46,537 - INFO - Transaction 53874837 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies.'}
+2025-04-06 04:40:46,820 - INFO - 1 event done
+2025-04-06 04:40:48,201 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:40:49,529 - INFO - Transaction 32611616 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems for discrepancies.'}
+2025-04-06 04:40:49,815 - INFO - 1 event done
+2025-04-06 04:40:51,194 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:40:52,927 - INFO - Transaction 56972317 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:40:53,211 - INFO - 1 event done
+2025-04-06 04:40:54,589 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:40:55,915 - INFO - Transaction 29735425 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:40:56,198 - INFO - 1 event done
+2025-04-06 04:40:57,574 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:40:58,931 - INFO - Transaction 71944132 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of transaction amounts for both systems.'}
+2025-04-06 04:40:59,240 - INFO - 1 event done
+2025-04-06 04:41:00,619 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:41:01,950 - INFO - Transaction 89392519 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:41:02,236 - INFO - 1 event done
+2025-04-06 04:41:03,613 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:41:04,939 - INFO - Transaction 22250738 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:41:05,224 - INFO - 1 event done
+2025-04-06 04:41:06,603 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:41:07,962 - INFO - Transaction 37300053 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:41:08,248 - INFO - 1 event done
+2025-04-06 04:41:09,626 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:41:10,953 - INFO - Transaction 37792832 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:41:11,240 - INFO - 1 event done
+2025-04-06 04:41:12,619 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:41:13,932 - INFO - Transaction 88704102 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:41:14,245 - INFO - 1 event done
+2025-04-06 04:41:15,621 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:41:16,933 - INFO - Transaction 89911201 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:41:17,220 - INFO - 1 event done
+2025-04-06 04:41:18,600 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:41:19,900 - INFO - Transaction 92993994 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:41:20,191 - INFO - 1 event done
+2025-04-06 04:41:21,573 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:41:23,338 - INFO - Transaction 41598134 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attribute amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:41:23,630 - INFO - 1 event done
+2025-04-06 04:41:25,010 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:41:26,354 - INFO - Transaction 52300570 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:41:26,662 - INFO - 1 event done
+2025-04-06 04:41:28,043 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:41:29,691 - INFO - Transaction 15061011 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount not matched.',
+    'next_step': 'Check the individual attributes (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:41:29,978 - INFO - 1 event done
+2025-04-06 04:41:31,363 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:41:32,749 - INFO - Transaction 42354309 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:41:33,077 - INFO - 1 event done
+2025-04-06 04:41:34,458 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:41:36,455 - INFO - Transaction 18845209 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual amount attributes for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) to resolve the discrepancy.'}
+2025-04-06 04:41:36,743 - INFO - 1 event done
+2025-04-06 04:41:38,137 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:41:39,496 - INFO - Transaction 62797644 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:41:39,784 - INFO - 1 event done
+2025-04-06 04:41:41,163 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:41:43,085 - INFO - Transaction 93930515 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount mismatch between system A and B.',
+    'next_step': 'Check the individual attributes (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:41:43,401 - INFO - 1 event done
+2025-04-06 04:41:44,779 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:41:46,133 - INFO - Transaction 35246700 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:41:46,432 - INFO - 1 event done
+2025-04-06 04:41:47,809 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:41:49,242 - INFO - Transaction 66109821 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:41:49,556 - INFO - 1 event done
+2025-04-06 04:41:50,934 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:41:52,296 - INFO - Transaction 39519340 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:41:52,586 - INFO - 1 event done
+2025-04-06 04:41:53,964 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:41:55,291 - INFO - Transaction 61145633 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they match.'}
+2025-04-06 04:41:55,579 - INFO - 1 event done
+2025-04-06 04:41:56,957 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:41:58,260 - INFO - Transaction 67462736 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:41:58,548 - INFO - 1 event done
+2025-04-06 04:41:59,927 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:42:01,230 - INFO - Transaction 98754137 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:42:01,545 - INFO - 1 event done
+2025-04-06 04:42:02,928 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:42:04,398 - INFO - Transaction 68147117 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:42:04,711 - INFO - 1 event done
+2025-04-06 04:42:06,089 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:42:07,491 - INFO - Transaction 70990520 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:42:07,783 - INFO - 1 event done
+2025-04-06 04:42:09,162 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:42:10,522 - INFO - Transaction 21684136 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:42:10,814 - INFO - 1 event done
+2025-04-06 04:42:12,194 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:42:13,521 - INFO - Transaction 24508024 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:42:13,818 - INFO - 1 event done
+2025-04-06 04:42:15,196 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:42:16,520 - INFO - Transaction 80203465 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:42:16,815 - INFO - 1 event done
+2025-04-06 04:42:18,193 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:42:19,366 - INFO - Transaction 13966299 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:42:19,660 - INFO - 1 event done
+2025-04-06 04:42:21,038 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:42:22,301 - INFO - Transaction 38750130 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:42:22,598 - INFO - 1 event done
+2025-04-06 04:42:23,976 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:42:25,178 - INFO - Transaction 76691072 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:42:25,475 - INFO - 1 event done
+2025-04-06 04:42:26,851 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:42:28,395 - INFO - Transaction 98095642 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match. Check sys_a_amount_attribute_1 and sys_b_amount_attribute_1.',
+    'next_step': 'Review the transaction amounts'}
+2025-04-06 04:42:28,687 - INFO - 1 event done
+2025-04-06 04:42:30,065 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:42:31,426 - INFO - Transaction 33270152 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:42:31,716 - INFO - 1 event done
+2025-04-06 04:42:33,095 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:42:34,252 - INFO - Transaction 82730194 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the amounts in both systems and reconcile.'}
+2025-04-06 04:42:34,542 - INFO - 1 event done
+2025-04-06 04:42:35,922 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:42:37,168 - INFO - Transaction 47927172 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:42:37,458 - INFO - 1 event done
+2025-04-06 04:42:38,853 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:42:40,212 - INFO - Transaction 10135151 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:42:40,503 - INFO - 1 event done
+2025-04-06 04:42:41,883 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:42:43,165 - INFO - Transaction 69444660 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the transaction amounts in both systems and resolve the discrepancy.'}
+2025-04-06 04:42:43,454 - INFO - 1 event done
+2025-04-06 04:42:44,852 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:42:46,157 - INFO - Transaction 22706915 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction not matched due to discrepancy in amount.',
+    'next_step': 'Check the amounts for both transactions and resolve the mismatch.'}
+2025-04-06 04:42:46,453 - INFO - 1 event done
+2025-04-06 04:42:47,833 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:42:49,080 - INFO - Transaction 89772418 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:42:49,376 - INFO - 1 event done
+2025-04-06 04:42:50,752 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:42:51,964 - INFO - Transaction 84614777 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:42:52,262 - INFO - 1 event done
+2025-04-06 04:42:53,640 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:42:54,852 - INFO - Transaction 46868222 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:42:55,148 - INFO - 1 event done
+2025-04-06 04:42:56,525 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:42:57,881 - INFO - Transaction 85904100 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:42:58,185 - INFO - 1 event done
+2025-04-06 04:42:59,567 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:43:00,809 - INFO - Transaction 65946084 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:43:01,108 - INFO - 1 event done
+2025-04-06 04:43:02,488 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:43:03,748 - INFO - Transaction 90415304 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:43:04,050 - INFO - 1 event done
+2025-04-06 04:43:05,431 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:43:06,701 - INFO - Transaction 57838860 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:43:07,004 - INFO - 1 event done
+2025-04-06 04:43:08,381 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:43:09,861 - INFO - Transaction 47801318 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match. Check sys_a_amount_attribute_1 and sys_b_amount_attribute_1.',
+    'next_step': 'Review the transaction amounts'}
+2025-04-06 04:43:10,162 - INFO - 1 event done
+2025-04-06 04:43:11,540 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:43:12,827 - INFO - Transaction 30630675 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:43:13,128 - INFO - 1 event done
+2025-04-06 04:43:14,509 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:43:15,766 - INFO - Transaction 12985058 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction not matched due to discrepancy in amount.',
+    'next_step': 'Check the amounts for both transactions and resolve the mismatch.'}
+2025-04-06 04:43:16,063 - INFO - 1 event done
+2025-04-06 04:43:17,441 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:43:18,757 - INFO - Transaction 46346512 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:43:19,056 - INFO - 1 event done
+2025-04-06 04:43:20,436 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:43:21,728 - INFO - Transaction 32050869 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:43:22,029 - INFO - 1 event done
+2025-04-06 04:43:23,405 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:43:25,192 - INFO - Transaction 58653959 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual amount attributes (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:43:25,492 - INFO - 1 event done
+2025-04-06 04:43:26,872 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:43:28,170 - INFO - Transaction 54839961 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:43:28,471 - INFO - 1 event done
+2025-04-06 04:43:29,848 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:43:31,109 - INFO - Transaction 24460460 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:43:31,413 - INFO - 1 event done
+2025-04-06 04:43:32,788 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:43:34,018 - INFO - Transaction 96223740 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies.'}
+2025-04-06 04:43:34,341 - INFO - 1 event done
+2025-04-06 04:43:35,716 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:43:37,536 - INFO - Transaction 90938445 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction amount for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1)'}
+2025-04-06 04:43:37,839 - INFO - 1 event done
+2025-04-06 04:43:39,220 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:43:40,579 - INFO - Transaction 33401979 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:43:40,875 - INFO - 1 event done
+2025-04-06 04:43:42,272 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:43:43,515 - INFO - Transaction 84919020 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:43:43,811 - INFO - 1 event done
+2025-04-06 04:43:45,192 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:43:46,465 - INFO - Transaction 95668997 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both systems and ensure they are correct.'}
+2025-04-06 04:43:46,762 - INFO - 1 event done
+2025-04-06 04:43:48,143 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:43:49,613 - INFO - Transaction 50208447 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:43:49,941 - INFO - 1 event done
+2025-04-06 04:43:51,315 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:43:52,616 - INFO - Transaction 68070566 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:43:52,944 - INFO - 1 event done
+2025-04-06 04:43:54,322 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:43:55,536 - INFO - Transaction 42905340 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:43:55,853 - INFO - 1 event done
+2025-04-06 04:43:57,231 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:43:59,145 - INFO - Transaction 13747963 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction not matched due to discrepancy in amounts.',
+    'next_step': 'Verify the amounts for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) and resolve the mismatch.'}
+2025-04-06 04:43:59,444 - INFO - 1 event done
+2025-04-06 04:44:00,822 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:44:02,124 - INFO - Transaction 45589710 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of system A and B amounts for discrepancies.'}
+2025-04-06 04:44:02,426 - INFO - 1 event done
+2025-04-06 04:44:03,803 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:44:05,801 - INFO - Transaction 17243619 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual amount attributes for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) to resolve the discrepancy.'}
+2025-04-06 04:44:06,098 - INFO - 1 event done
+2025-04-06 04:44:07,476 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:44:09,385 - INFO - Transaction 23332328 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction not matched due to discrepancy in amount.',
+    'next_step': 'Verify the amounts for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) and resolve the mismatch.'}
+2025-04-06 04:44:09,688 - INFO - 1 event done
+2025-04-06 04:44:11,068 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:44:12,227 - INFO - Transaction 68295124 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the amounts in both systems and reconcile.'}
+2025-04-06 04:44:12,525 - INFO - 1 event done
+2025-04-06 04:44:13,904 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:44:15,145 - INFO - Transaction 69484963 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:44:15,444 - INFO - 1 event done
+2025-04-06 04:44:16,820 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:44:18,149 - INFO - Transaction 62233764 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:44:18,443 - INFO - 1 event done
+2025-04-06 04:44:19,823 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:44:21,587 - INFO - Transaction 56261125 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attribute amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:44:21,885 - INFO - 1 event done
+2025-04-06 04:44:23,268 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:44:24,590 - INFO - Transaction 26842540 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:44:24,889 - INFO - 1 event done
+2025-04-06 04:44:26,270 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:44:27,739 - INFO - Transaction 78541958 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:44:28,063 - INFO - 1 event done
+2025-04-06 04:44:29,439 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:44:30,795 - INFO - Transaction 11362416 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:44:31,111 - INFO - 1 event done
+2025-04-06 04:44:32,491 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:44:33,788 - INFO - Transaction 22669357 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:44:34,089 - INFO - 1 event done
+2025-04-06 04:44:35,467 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:44:36,825 - INFO - Transaction 87356175 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:44:37,125 - INFO - 1 event done
+2025-04-06 04:44:38,505 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:44:39,863 - INFO - Transaction 49656963 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:44:40,161 - INFO - 1 event done
+2025-04-06 04:44:41,545 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:44:42,785 - INFO - Transaction 26927079 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:44:43,095 - INFO - 1 event done
+2025-04-06 04:44:44,472 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:44:45,829 - INFO - Transaction 29081698 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:44:46,132 - INFO - 1 event done
+2025-04-06 04:44:47,509 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:44:48,813 - INFO - Transaction 80862949 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:44:49,123 - INFO - 1 event done
+2025-04-06 04:44:50,500 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:44:52,854 - INFO - Transaction 16179829 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match. Check sys_a_amount_attribute_1 and sys_b_amount_attribute_1.',
+    'next_step': 'Compare the amounts in sys_a_amount_attribute_1 and sys_b_amount_attribute_1 to resolve the discrepancy.'}
+2025-04-06 04:44:53,151 - INFO - 1 event done
+2025-04-06 04:44:54,530 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:44:55,873 - INFO - Transaction 34100389 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:44:56,173 - INFO - 1 event done
+2025-04-06 04:44:57,550 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:44:58,910 - INFO - Transaction 79214947 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:44:59,209 - INFO - 1 event done
+2025-04-06 04:45:00,587 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:45:01,892 - INFO - Transaction 32606566 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:45:02,199 - INFO - 1 event done
+2025-04-06 04:45:03,577 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:45:05,370 - INFO - Transaction 35280819 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount mismatch between system A and B.',
+    'next_step': 'Check the individual attributes (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:45:05,670 - INFO - 1 event done
+2025-04-06 04:45:07,047 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:45:08,377 - INFO - Transaction 98598745 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:45:08,678 - INFO - 1 event done
+2025-04-06 04:45:10,056 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:45:12,050 - INFO - Transaction 50197937 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual amount attributes for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) to resolve the discrepancy.'}
+2025-04-06 04:45:12,352 - INFO - 1 event done
+2025-04-06 04:45:13,730 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:45:15,056 - INFO - Transaction 70626971 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:45:15,359 - INFO - 1 event done
+2025-04-06 04:45:16,737 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:45:18,151 - INFO - Transaction 21537618 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:45:18,458 - INFO - 1 event done
+2025-04-06 04:45:19,835 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:45:21,190 - INFO - Transaction 22123430 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:45:21,488 - INFO - 1 event done
+2025-04-06 04:45:22,889 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:45:24,197 - INFO - Transaction 67529177 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction not matched due to discrepancy in amount.',
+    'next_step': 'Check the amounts for both transactions and resolve the mismatch.'}
+2025-04-06 04:45:24,494 - INFO - 1 event done
+2025-04-06 04:45:25,870 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:45:27,231 - INFO - Transaction 25964976 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:45:27,533 - INFO - 1 event done
+2025-04-06 04:45:28,910 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:45:30,061 - INFO - Transaction 76805723 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies.'}
+2025-04-06 04:45:30,361 - INFO - 1 event done
+2025-04-06 04:45:31,741 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:45:33,203 - INFO - Transaction 62653270 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:45:33,527 - INFO - 1 event done
+2025-04-06 04:45:34,898 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:45:36,138 - INFO - Transaction 71149239 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both systems and ensure they match.'}
+2025-04-06 04:45:36,440 - INFO - 1 event done
+2025-04-06 04:45:37,816 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:45:39,147 - INFO - Transaction 36791913 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:45:39,446 - INFO - 1 event done
+2025-04-06 04:45:40,823 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:45:42,180 - INFO - Transaction 92474079 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:45:42,482 - INFO - 1 event done
+2025-04-06 04:45:43,858 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:45:45,011 - INFO - Transaction 55016101 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies.'}
+2025-04-06 04:45:45,311 - INFO - 1 event done
+2025-04-06 04:45:46,687 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:45:48,014 - INFO - Transaction 50141786 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:45:48,316 - INFO - 1 event done
+2025-04-06 04:45:49,697 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:45:50,913 - INFO - Transaction 47995300 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:45:51,215 - INFO - 1 event done
+2025-04-06 04:45:52,594 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:45:53,925 - INFO - Transaction 43047116 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:45:54,228 - INFO - 1 event done
+2025-04-06 04:45:55,609 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:45:56,879 - INFO - Transaction 85383294 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both systems and ensure they are correct.'}
+2025-04-06 04:45:57,182 - INFO - 1 event done
+2025-04-06 04:45:58,563 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:46:00,096 - INFO - Transaction 76607063 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:46:00,424 - INFO - 1 event done
+2025-04-06 04:46:01,807 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:46:03,077 - INFO - Transaction 11480307 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both systems and ensure they are correct.'}
+2025-04-06 04:46:03,380 - INFO - 1 event done
+2025-04-06 04:46:04,756 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:46:05,911 - INFO - Transaction 74621140 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies.'}
+2025-04-06 04:46:06,215 - INFO - 1 event done
+2025-04-06 04:46:07,592 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:46:09,158 - INFO - Transaction 43196843 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match. Check sys_a_amount_attribute_1 and sys_b_amount_attribute_1.',
+    'next_step': 'Review the transaction amounts.'}
+2025-04-06 04:46:09,465 - INFO - 1 event done
+2025-04-06 04:46:10,843 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:46:12,175 - INFO - Transaction 63025151 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:46:12,482 - INFO - 1 event done
+2025-04-06 04:46:13,860 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:46:15,017 - INFO - Transaction 14085745 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies.'}
+2025-04-06 04:46:15,325 - INFO - 1 event done
+2025-04-06 04:46:16,707 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:46:18,046 - INFO - Transaction 30443923 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:46:18,380 - INFO - 1 event done
+2025-04-06 04:46:19,759 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:46:21,090 - INFO - Transaction 31080558 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:46:21,399 - INFO - 1 event done
+2025-04-06 04:46:22,776 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:46:24,519 - INFO - Transaction 16559142 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:46:24,827 - INFO - 1 event done
+2025-04-06 04:46:26,223 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:46:28,088 - INFO - Transaction 50849535 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:46:28,399 - INFO - 1 event done
+2025-04-06 04:46:29,778 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:46:31,050 - INFO - Transaction 65459457 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both systems and ensure they are correct.'}
+2025-04-06 04:46:31,359 - INFO - 1 event done
+2025-04-06 04:46:32,737 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:46:34,101 - INFO - Transaction 35458880 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:46:34,412 - INFO - 1 event done
+2025-04-06 04:46:35,790 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:46:37,123 - INFO - Transaction 58701249 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:46:37,432 - INFO - 1 event done
+2025-04-06 04:46:38,811 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:46:40,177 - INFO - Transaction 98299440 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:46:40,486 - INFO - 1 event done
+2025-04-06 04:46:41,883 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:46:43,339 - INFO - Transaction 37532319 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:46:43,669 - INFO - 1 event done
+2025-04-06 04:46:45,047 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:46:46,203 - INFO - Transaction 10658113 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies.'}
+2025-04-06 04:46:46,512 - INFO - 1 event done
+2025-04-06 04:46:47,888 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:46:50,025 - INFO - Transaction 85867547 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual amount attributes for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) to resolve the discrepancy.'}
+2025-04-06 04:46:50,360 - INFO - 1 event done
+2025-04-06 04:46:51,742 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:46:53,133 - INFO - Transaction 79563447 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:46:53,468 - INFO - 1 event done
+2025-04-06 04:46:54,846 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:46:56,178 - INFO - Transaction 71291639 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:46:56,488 - INFO - 1 event done
+2025-04-06 04:46:57,870 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:46:59,114 - INFO - Transaction 44233729 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both systems and ensure they match.'}
+2025-04-06 04:46:59,424 - INFO - 1 event done
+2025-04-06 04:47:00,809 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:47:02,228 - INFO - Transaction 69638035 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:47:02,541 - INFO - 1 event done
+2025-04-06 04:47:03,918 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:47:05,223 - INFO - Transaction 47968275 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:47:05,535 - INFO - 1 event done
+2025-04-06 04:47:06,911 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:47:08,271 - INFO - Transaction 88408806 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:47:08,602 - INFO - 1 event done
+2025-04-06 04:47:09,981 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:47:11,725 - INFO - Transaction 41811924 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:47:12,038 - INFO - 1 event done
+2025-04-06 04:47:13,417 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:47:14,748 - INFO - Transaction 87781780 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:47:15,057 - INFO - 1 event done
+2025-04-06 04:47:16,438 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:47:18,211 - INFO - Transaction 49024138 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attribute amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:47:18,524 - INFO - 1 event done
+2025-04-06 04:47:19,902 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:47:21,668 - INFO - Transaction 50085648 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount mismatch between system A and B.',
+    'next_step': 'Check the individual attributes (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for correctness.'}
+2025-04-06 04:47:21,999 - INFO - 1 event done
+2025-04-06 04:47:23,395 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:47:24,739 - INFO - Transaction 82840159 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:47:25,098 - INFO - 1 event done
+2025-04-06 04:47:26,477 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:47:28,598 - INFO - Transaction 67157759 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual amount attributes for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) to resolve the discrepancy.'}
+2025-04-06 04:47:28,910 - INFO - 1 event done
+2025-04-06 04:47:30,288 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:47:32,114 - INFO - Transaction 84532412 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically sys_a_amount_attribute_1 and sys_b_amount_attribute_1.'}
+2025-04-06 04:47:32,429 - INFO - 1 event done
+2025-04-06 04:47:33,805 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:47:35,019 - INFO - Transaction 44613236 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:47:35,332 - INFO - 1 event done
+2025-04-06 04:47:36,715 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:47:38,604 - INFO - Transaction 41953959 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attribute amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:47:38,961 - INFO - 1 event done
+2025-04-06 04:47:40,341 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:47:42,691 - INFO - Transaction 55398706 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the amounts in sys_a_amount_attribute_1, sys_a_amount_attribute_2, sys_b_amount_attribute_1, and sys_b_amount_attribute_2 for reconciliation.'}
+2025-04-06 04:47:43,005 - INFO - 1 event done
+2025-04-06 04:47:44,384 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:47:45,800 - INFO - Transaction 76464994 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:47:46,114 - INFO - 1 event done
+2025-04-06 04:47:47,492 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:47:49,492 - INFO - Transaction 83488498 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual amount attributes for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) to resolve the discrepancy.'}
+2025-04-06 04:47:49,806 - INFO - 1 event done
+2025-04-06 04:47:51,183 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:47:52,543 - INFO - Transaction 14375012 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:47:52,875 - INFO - 1 event done
+2025-04-06 04:47:54,253 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:47:56,105 - INFO - Transaction 15620300 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:47:56,416 - INFO - 1 event done
+2025-04-06 04:47:57,795 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:47:59,157 - INFO - Transaction 33016566 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:47:59,470 - INFO - 1 event done
+2025-04-06 04:48:00,851 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:48:02,187 - INFO - Transaction 83680527 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:48:02,499 - INFO - 1 event done
+2025-04-06 04:48:03,877 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:48:05,032 - INFO - Transaction 20101035 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies.'}
+2025-04-06 04:48:05,346 - INFO - 1 event done
+2025-04-06 04:48:06,724 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:48:07,963 - INFO - Transaction 66164986 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies.'}
+2025-04-06 04:48:08,305 - INFO - 1 event done
+2025-04-06 04:48:09,678 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:48:11,211 - INFO - Transaction 53568884 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match. Check sys_a_amount_attribute_1 and sys_b_amount_attribute_1.',
+    'next_step': 'Review the transaction amounts'}
+2025-04-06 04:48:11,524 - INFO - 1 event done
+2025-04-06 04:48:12,903 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:48:14,149 - INFO - Transaction 23421688 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:48:14,465 - INFO - 1 event done
+2025-04-06 04:48:15,841 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:48:18,278 - INFO - Transaction 16843122 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction not matched due to discrepancy in amounts.',
+    'next_step': 'Verify the amounts for both systems (sys_a_amount_attribute_1, sys_a_amount_attribute_2, sys_b_amount_attribute_1, sys_b_amount_attribute_2) and reconcile.'}
+2025-04-06 04:48:18,602 - INFO - 1 event done
+2025-04-06 04:48:19,992 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:48:21,347 - INFO - Transaction 58624513 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:48:21,679 - INFO - 1 event done
+2025-04-06 04:48:23,075 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:48:24,438 - INFO - Transaction 61742686 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:48:24,748 - INFO - 1 event done
+2025-04-06 04:48:26,130 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:48:27,438 - INFO - Transaction 59858284 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:48:27,751 - INFO - 1 event done
+2025-04-06 04:48:29,130 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:48:30,661 - INFO - Transaction 69342750 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match. Check sys_a_amount_attribute_1 and sys_b_amount_attribute_1.',
+    'next_step': 'Review the transaction amounts'}
+2025-04-06 04:48:30,977 - INFO - 1 event done
+2025-04-06 04:48:32,359 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:48:33,574 - INFO - Transaction 45151398 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:48:33,890 - INFO - 1 event done
+2025-04-06 04:48:35,270 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:48:36,569 - INFO - Transaction 74014314 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:48:36,886 - INFO - 1 event done
+2025-04-06 04:48:38,285 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:48:39,614 - INFO - Transaction 98798776 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:48:39,957 - INFO - 1 event done
+2025-04-06 04:48:41,338 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:48:42,622 - INFO - Transaction 74752055 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both systems and ensure they are correct.'}
+2025-04-06 04:48:42,938 - INFO - 1 event done
+2025-04-06 04:48:44,328 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:48:46,179 - INFO - Transaction 20483961 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual amount attributes (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:48:46,494 - INFO - 1 event done
+2025-04-06 04:48:47,872 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:48:49,176 - INFO - Transaction 72979238 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:48:49,490 - INFO - 1 event done
+2025-04-06 04:48:50,883 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:48:52,110 - INFO - Transaction 54458678 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:48:52,428 - INFO - 1 event done
+2025-04-06 04:48:53,807 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:48:55,136 - INFO - Transaction 65437849 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:48:55,451 - INFO - 1 event done
+2025-04-06 04:48:56,831 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:48:58,266 - INFO - Transaction 45981445 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:48:58,611 - INFO - 1 event done
+2025-04-06 04:48:59,992 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:49:01,354 - INFO - Transaction 53985596 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:49:01,691 - INFO - 1 event done
+2025-04-06 04:49:03,067 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:49:04,232 - INFO - Transaction 87844156 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies.'}
+2025-04-06 04:49:04,550 - INFO - 1 event done
+2025-04-06 04:49:05,928 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:49:07,291 - INFO - Transaction 22925261 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:49:07,610 - INFO - 1 event done
+2025-04-06 04:49:08,990 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:49:10,350 - INFO - Transaction 41003599 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:49:10,669 - INFO - 1 event done
+2025-04-06 04:49:12,045 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:49:13,290 - INFO - Transaction 11396840 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:49:13,607 - INFO - 1 event done
+2025-04-06 04:49:14,986 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:49:16,318 - INFO - Transaction 94046378 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:49:16,637 - INFO - 1 event done
+2025-04-06 04:49:18,034 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:49:19,226 - INFO - Transaction 18417530 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction not matched due to discrepancy in amounts.',
+    'next_step': 'Check the corresponding transaction for correct amount.'}
+2025-04-06 04:49:19,546 - INFO - 1 event done
+2025-04-06 04:49:20,923 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:49:22,228 - INFO - Transaction 15378558 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of system A and B amounts for discrepancies.'}
+2025-04-06 04:49:22,546 - INFO - 1 event done
+2025-04-06 04:49:23,923 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:49:25,282 - INFO - Transaction 75549708 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:49:25,601 - INFO - 1 event done
+2025-04-06 04:49:26,983 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:49:28,965 - INFO - Transaction 84707435 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction amount for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1)'}
+2025-04-06 04:49:29,303 - INFO - 1 event done
+2025-04-06 04:49:30,698 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:49:32,697 - INFO - Transaction 85543310 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual amount attributes for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) to resolve the discrepancy.'}
+2025-04-06 04:49:33,016 - INFO - 1 event done
+2025-04-06 04:49:34,394 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:49:35,727 - INFO - Transaction 17280935 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:49:36,048 - INFO - 1 event done
+2025-04-06 04:49:37,427 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:49:39,424 - INFO - Transaction 13187493 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual amount attributes for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) to resolve the discrepancy.'}
+2025-04-06 04:49:39,744 - INFO - 1 event done
+2025-04-06 04:49:41,123 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:49:42,425 - INFO - Transaction 99537786 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:49:42,744 - INFO - 1 event done
+2025-04-06 04:49:44,122 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:49:45,357 - INFO - Transaction 45399285 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:49:45,685 - INFO - 1 event done
+2025-04-06 04:49:47,070 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:49:48,431 - INFO - Transaction 16763817 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:49:48,763 - INFO - 1 event done
+2025-04-06 04:49:50,144 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:49:51,475 - INFO - Transaction 67271052 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:49:51,797 - INFO - 1 event done
+2025-04-06 04:49:53,176 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:49:54,535 - INFO - Transaction 84673493 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:49:54,855 - INFO - 1 event done
+2025-04-06 04:49:56,235 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:49:57,946 - INFO - Transaction 80460474 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual system amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for accuracy.'}
+2025-04-06 04:49:58,269 - INFO - 1 event done
+2025-04-06 04:49:59,646 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:50:00,950 - INFO - Transaction 91819439 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:50:01,274 - INFO - 1 event done
+2025-04-06 04:50:02,654 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:50:03,899 - INFO - Transaction 54425893 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:50:04,220 - INFO - 1 event done
+2025-04-06 04:50:05,598 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:50:06,959 - INFO - Transaction 28768369 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:50:07,280 - INFO - 1 event done
+2025-04-06 04:50:08,669 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:50:10,069 - INFO - Transaction 10905921 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:50:10,418 - INFO - 1 event done
+2025-04-06 04:50:11,796 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:50:13,204 - INFO - Transaction 71187449 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:50:13,555 - INFO - 1 event done
+2025-04-06 04:50:14,935 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:50:16,178 - INFO - Transaction 68690952 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:50:16,502 - INFO - 1 event done
+2025-04-06 04:50:17,877 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:50:19,181 - INFO - Transaction 69386693 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:50:19,503 - INFO - 1 event done
+2025-04-06 04:50:20,881 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:50:22,212 - INFO - Transaction 50073892 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:50:22,536 - INFO - 1 event done
+2025-04-06 04:50:23,916 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:50:25,223 - INFO - Transaction 48200709 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction not matched due to discrepancy in amount.',
+    'next_step': 'Check the amounts for both transactions and resolve the mismatch.'}
+2025-04-06 04:50:25,545 - INFO - 1 event done
+2025-04-06 04:50:26,926 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:50:28,776 - INFO - Transaction 61057246 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attribute amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:50:29,100 - INFO - 1 event done
+2025-04-06 04:50:30,481 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:50:31,695 - INFO - Transaction 35916022 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:50:32,018 - INFO - 1 event done
+2025-04-06 04:50:33,399 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:50:34,649 - INFO - Transaction 13516383 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:50:34,973 - INFO - 1 event done
+2025-04-06 04:50:36,354 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:50:37,685 - INFO - Transaction 27065797 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:50:38,010 - INFO - 1 event done
+2025-04-06 04:50:39,389 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:50:41,126 - INFO - Transaction 96086751 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:50:41,453 - INFO - 1 event done
+2025-04-06 04:50:42,832 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:50:44,252 - INFO - Transaction 69803555 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:50:44,576 - INFO - 1 event done
+2025-04-06 04:50:45,955 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:50:47,115 - INFO - Transaction 61723821 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies.'}
+2025-04-06 04:50:47,438 - INFO - 1 event done
+2025-04-06 04:50:48,815 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:50:50,144 - INFO - Transaction 82973157 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:50:50,470 - INFO - 1 event done
+2025-04-06 04:50:51,848 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:50:53,172 - INFO - Transaction 93796580 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:50:53,516 - INFO - 1 event done
+2025-04-06 04:50:54,894 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:50:56,254 - INFO - Transaction 62630569 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:50:56,578 - INFO - 1 event done
+2025-04-06 04:50:57,955 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:50:59,321 - INFO - Transaction 28560035 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:50:59,645 - INFO - 1 event done
+2025-04-06 04:51:01,026 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:51:02,342 - INFO - Transaction 10943085 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction not matched due to discrepancy in amount.',
+    'next_step': 'Check the amounts for both transactions and resolve the mismatch.'}
+2025-04-06 04:51:02,668 - INFO - 1 event done
+2025-04-06 04:51:04,046 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:51:05,899 - INFO - Transaction 29288952 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:51:06,227 - INFO - 1 event done
+2025-04-06 04:51:07,599 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:51:08,842 - INFO - Transaction 43944784 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both systems and ensure they match.'}
+2025-04-06 04:51:09,165 - INFO - 1 event done
+2025-04-06 04:51:10,544 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:51:11,845 - INFO - Transaction 33681550 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction not matched due to discrepancy in amount.',
+    'next_step': 'Check the amounts for both transactions and resolve the mismatch.'}
+2025-04-06 04:51:12,170 - INFO - 1 event done
+2025-04-06 04:51:13,548 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:51:15,459 - INFO - Transaction 52461744 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount mismatch between system A and B.',
+    'next_step': 'Check the individual attributes (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:51:15,809 - INFO - 1 event done
+2025-04-06 04:51:17,190 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:51:18,404 - INFO - Transaction 24613272 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:51:18,730 - INFO - 1 event done
+2025-04-06 04:51:20,109 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:51:21,353 - INFO - Transaction 11582744 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for discrepancies and update accordingly.'}
+2025-04-06 04:51:21,680 - INFO - 1 event done
+2025-04-06 04:51:23,061 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:51:24,396 - INFO - Transaction 94242438 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:51:24,723 - INFO - 1 event done
+2025-04-06 04:51:26,101 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:51:27,468 - INFO - Transaction 90620566 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:51:27,795 - INFO - 1 event done
+2025-04-06 04:51:29,175 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:51:30,532 - INFO - Transaction 91872068 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:51:30,858 - INFO - 1 event done
+2025-04-06 04:51:32,236 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:51:34,240 - INFO - Transaction 11952373 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual amount attributes for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) to resolve the discrepancy.'}
+2025-04-06 04:51:34,570 - INFO - 1 event done
+2025-04-06 04:51:35,950 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:51:37,283 - INFO - Transaction 41550975 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:51:37,610 - INFO - 1 event done
+2025-04-06 04:51:38,990 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:51:40,411 - INFO - Transaction 58779984 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:51:40,755 - INFO - 1 event done
+2025-04-06 04:51:42,138 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:51:43,526 - INFO - Transaction 22107438 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:51:43,882 - INFO - 1 event done
+2025-04-06 04:51:45,264 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:51:47,002 - INFO - Transaction 53548413 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:51:47,333 - INFO - 1 event done
+2025-04-06 04:51:48,711 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:51:50,016 - INFO - Transaction 94504827 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:51:50,336 - INFO - 1 event done
+2025-04-06 04:51:51,715 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:51:53,047 - INFO - Transaction 11683692 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:51:53,370 - INFO - 1 event done
+2025-04-06 04:51:54,750 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:51:56,663 - INFO - Transaction 28034760 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction not matched due to discrepancy in amount.',
+    'next_step': 'Verify the amounts for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) and resolve the mismatch.'}
+2025-04-06 04:51:56,994 - INFO - 1 event done
+2025-04-06 04:51:58,373 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:52:00,374 - INFO - Transaction 33879404 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual amount attributes for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) to resolve the discrepancy.'}
+2025-04-06 04:52:00,705 - INFO - 1 event done
+2025-04-06 04:52:02,085 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:52:03,509 - INFO - Transaction 77466530 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:52:03,864 - INFO - 1 event done
+2025-04-06 04:52:05,244 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:52:06,576 - INFO - Transaction 56764192 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:52:06,904 - INFO - 1 event done
+2025-04-06 04:52:08,281 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:52:09,644 - INFO - Transaction 72554446 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:52:09,971 - INFO - 1 event done
+2025-04-06 04:52:11,351 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:52:12,654 - INFO - Transaction 44964367 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:52:12,976 - INFO - 1 event done
+2025-04-06 04:52:14,356 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:52:15,716 - INFO - Transaction 71152460 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:52:16,046 - INFO - 1 event done
+2025-04-06 04:52:17,427 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:52:18,641 - INFO - Transaction 67136672 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the corresponding transaction in system B for the correct amount.'}
+2025-04-06 04:52:18,981 - INFO - 1 event done
+2025-04-06 04:52:20,362 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:52:21,722 - INFO - Transaction 73760906 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:52:22,052 - INFO - 1 event done
+2025-04-06 04:52:23,425 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:52:25,280 - INFO - Transaction 60353639 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual amount attributes (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:52:25,612 - INFO - 1 event done
+2025-04-06 04:52:26,989 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:52:28,423 - INFO - Transaction 66304632 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:52:28,778 - INFO - 1 event done
+2025-04-06 04:52:30,157 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:52:32,011 - INFO - Transaction 12216429 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:52:32,354 - INFO - 1 event done
+2025-04-06 04:52:33,732 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:52:35,129 - INFO - Transaction 72378439 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:52:35,486 - INFO - 1 event done
+2025-04-06 04:52:36,863 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:52:38,369 - INFO - Transaction 74550990 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:52:38,726 - INFO - 1 event done
+2025-04-06 04:52:40,105 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:52:42,103 - INFO - Transaction 29387564 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual amount attributes for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) to resolve the discrepancy.'}
+2025-04-06 04:52:42,439 - INFO - 1 event done
+2025-04-06 04:52:43,823 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:52:45,285 - INFO - Transaction 47234564 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:52:45,642 - INFO - 1 event done
+2025-04-06 04:52:47,021 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:52:48,421 - INFO - Transaction 96894803 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:52:48,777 - INFO - 1 event done
+2025-04-06 04:52:50,157 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:52:51,517 - INFO - Transaction 33771525 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:52:51,847 - INFO - 1 event done
+2025-04-06 04:52:53,239 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:52:54,455 - INFO - Transaction 15774986 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:52:54,786 - INFO - 1 event done
+2025-04-06 04:52:56,164 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:52:57,380 - INFO - Transaction 57812561 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:52:57,711 - INFO - 1 event done
+2025-04-06 04:52:59,089 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:53:00,449 - INFO - Transaction 49600661 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:53:00,781 - INFO - 1 event done
+2025-04-06 04:53:02,163 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:53:03,559 - INFO - Transaction 42937448 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:53:03,917 - INFO - 1 event done
+2025-04-06 04:53:05,297 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:53:06,655 - INFO - Transaction 45914819 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:53:06,985 - INFO - 1 event done
+2025-04-06 04:53:08,363 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:53:10,130 - INFO - Transaction 71407679 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount mismatch between system A and B.',
+    'next_step': 'Check the individual attributes (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for correctness.'}
+2025-04-06 04:53:10,461 - INFO - 1 event done
+2025-04-06 04:53:11,840 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:53:13,222 - INFO - Transaction 46262941 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:53:13,580 - INFO - 1 event done
+2025-04-06 04:53:14,958 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:53:16,288 - INFO - Transaction 38296733 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:53:16,619 - INFO - 1 event done
+2025-04-06 04:53:17,995 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:53:19,415 - INFO - Transaction 32281341 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:53:19,750 - INFO - 1 event done
+2025-04-06 04:53:21,128 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:53:23,192 - INFO - Transaction 24276925 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of transaction amounts for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) to resolve the discrepancy.'}
+2025-04-06 04:53:23,525 - INFO - 1 event done
+2025-04-06 04:53:24,902 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:53:26,203 - INFO - Transaction 45924614 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual attributes of the transaction amounts in both systems.'}
+2025-04-06 04:53:26,538 - INFO - 1 event done
+2025-04-06 04:53:27,916 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:53:29,249 - INFO - Transaction 96257651 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:53:29,582 - INFO - 1 event done
+2025-04-06 04:53:30,960 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:53:32,960 - INFO - Transaction 49461608 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between system A and B.',
+    'next_step': 'Check the individual amount attributes for both systems (sys_a_amount_attribute_1, sys_b_amount_attribute_1) to resolve the discrepancy.'}
+2025-04-06 04:53:33,291 - INFO - 1 event done
+2025-04-06 04:53:34,668 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:53:36,000 - INFO - Transaction 18305338 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for discrepancies.'}
+2025-04-06 04:53:36,338 - INFO - 1 event done
+2025-04-06 04:53:37,715 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:53:39,133 - INFO - Transaction 26995341 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of the transaction for discrepancies, specifically the amounts.'}
+2025-04-06 04:53:39,494 - INFO - 1 event done
+2025-04-06 04:53:40,875 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:53:42,435 - INFO - Transaction 55532322 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match. Check sys_a_amount_attribute_1 and sys_b_amount_attribute_1.',
+    'next_step': 'Review the transaction amounts.'}
+2025-04-06 04:53:42,770 - INFO - 1 event done
+2025-04-06 04:53:44,149 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:53:45,507 - INFO - Transaction 23056951 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:53:45,843 - INFO - 1 event done
+2025-04-06 04:53:47,225 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:53:48,691 - INFO - Transaction 58274119 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:53:49,053 - INFO - 1 event done
+2025-04-06 04:53:50,434 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:53:51,793 - INFO - Transaction 54476210 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual amount attributes for both system A and B to ensure they are correct.'}
+2025-04-06 04:53:52,129 - INFO - 1 event done
+2025-04-06 04:53:53,510 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:53:54,814 - INFO - Transaction 48065191 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes of both system A and B transactions for matching amounts.'}
+2025-04-06 04:53:55,148 - INFO - 1 event done
+2025-04-06 04:53:56,526 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-06 04:53:58,270 - INFO - Transaction 97508440 classified with info: {'status': 'unresolved',
+    'summary': 'Transaction amount does not match between systems.',
+    'next_step': 'Check the individual attributes (sys_a_amount_attribute_1, sys_b_amount_attribute_1) for discrepancies.'}
+2025-04-06 04:53:58,605 - INFO - 1 event done
+2025-04-06 04:53:58,605 - INFO - Workflow executed successfully.
